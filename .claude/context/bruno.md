@@ -15,7 +15,7 @@ Bruno Ribeiro Leite Pinheiro, 30 anos (nascido em 1996). Nasceu em Volta Redonda
 | Quando | O que aconteceu |
 |---|---|
 | Infância e adolescência | Pais comerciantes. Trabalhou desde muito novo no mercadinho do pai. O mercadinho quebrou e a condição da família piorou; as casinhas de aluguel do pai ajudavam a pagar as contas. O sonho dos pais: filho engenheiro. |
-| Vestibular | Não passou na federal na 1ª tentativa. No ano entre as duas, foi jovem aprendiz na MRS (operador de máquinas/trem). Passou na 2ª tentativa; a mãe tinha prometido um carro se ele passasse. |
+| Vestibular | Não passou na federal na 1ª tentativa. No ano entre as duas, foi jovem aprendiz na MRS (operador de máquinas/trem). Passou na 2ª tentativa. A mãe tinha prometido um carro se ele passasse, mas o carro nunca veio: o primeiro (uma Mercedes) ele mesmo comprou. |
 | Faculdade | Engenharia Metalúrgica em federal em Volta Redonda: 6 anos num curso de 5 ("não era o melhor aluno, gostava de sair"). República com amigos, vivia com menos de R$ 800/mês (R$ 300 aluguel + R$ 300 contas + R$ 200 comida, almoço no restaurante de R$ 1). |
 | Estágio | Recusado em mais de 10 entrevistas. Contratado na 11ª, na CSN (aciaria). 3 a 4 meses depois veio a pandemia e os estagiários foram os primeiros cortados. |
 | Pandemia | Desempregado, sem experiência, numa área que exige experiência. Tentou várias vagas e áreas, sem sucesso. |
@@ -28,6 +28,16 @@ Bruno Ribeiro Leite Pinheiro, 30 anos (nascido em 1996). Nasceu em Volta Redonda
 | Hoje | Mais de R$ 30 milhões faturados com e-commerce no total. No último ano, R$ 12 a 15 milhões. Migrou de dropshipping para operação com estoque e aplica IA na gestão. |
 
 **Conquistas citadas:** casa própria de mais de R$ 1 milhão; mais de R$ 1 milhão investido; primeiro carro uma Mercedes, depois BMW X4; 3 a 4 viagens internacionais; levou a própria família e a da esposa para conhecer a neve. Meta: comprar um Porsche 911.
+
+## Operação hoje (nov/2026)
+- **Equipe:** Bruno gerencia praticamente tudo sozinho. 4 pessoas na logística, 1 no pós-venda, 2 vendedoras, 1 gerente, e a esposa ajuda no conteúdo. São 8 funcionários + Bruno + esposa.
+- **Faturamento:** R$ 12 a 15 milhões no último ano, cerca de R$ 1,2 a 1,5 milhão por pessoa na equipe.
+- **Margem líquida:** 20% a 25%. Publicar só o percentual, não o lucro em reais, salvo decisão do Bruno.
+- **O que fez o 1º milhão em 6 meses:** produto viral + branding + criativos virais + escala no Meta Ads.
+- **Por que saiu do dropshipping para estoque:** a taxação do governo sobre importações. *(Provavelmente o Remessa Conforme/"taxa das blusinhas"; confirmar com o Bruno antes de citar o nome.)*
+
+## Público que o Bruno quer ajudar
+Empresários que **já têm negócio e já faturam** e querem escalar mais, com autonomia, controle de dados e IA aplicada em tudo. Não é para iniciante nem para quem busca o primeiro dinheiro na internet.
 
 **Propósito declarado:** ajudar empresários e empreendedores a ter sucesso no e-commerce e conquistar liberdade financeira, com gestão de equipe enxuta e escala. Forças que ele mesmo aponta: marketing e criativos.
 
