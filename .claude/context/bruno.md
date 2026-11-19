@@ -9,6 +9,28 @@ Builder de sistemas digitais com mentalidade de escala: operador de e-commerce, 
 - Quer respostas diretas, estratégicas e aplicáveis, com próximos passos, como de um sócio técnico.
 - Rejeita: burocracia improdutiva, teoria sem execução, branding vazio, marketing sem oferta, processos manuais repetitivos.
 
+## História (contada pelo Bruno, nov/2026)
+Bruno Ribeiro Leite Pinheiro, 30 anos (nascido em 1996). Nasceu em Volta Redonda (RJ) e cresceu em Barra do Piraí, cidade pequena do interior do Rio. Casado.
+
+| Quando | O que aconteceu |
+|---|---|
+| Infância e adolescência | Pais comerciantes. Trabalhou desde muito novo no mercadinho do pai. O mercadinho quebrou e a condição da família piorou; as casinhas de aluguel do pai ajudavam a pagar as contas. O sonho dos pais: filho engenheiro. |
+| Vestibular | Não passou na federal na 1ª tentativa. No ano entre as duas, foi jovem aprendiz na MRS (operador de máquinas/trem). Passou na 2ª tentativa; a mãe tinha prometido um carro se ele passasse. |
+| Faculdade | Engenharia Metalúrgica em federal em Volta Redonda: 6 anos num curso de 5 ("não era o melhor aluno, gostava de sair"). República com amigos, vivia com menos de R$ 800/mês (R$ 300 aluguel + R$ 300 contas + R$ 200 comida, almoço no restaurante de R$ 1). |
+| Estágio | Recusado em mais de 10 entrevistas. Contratado na 11ª, na CSN (aciaria). 3 a 4 meses depois veio a pandemia e os estagiários foram os primeiros cortados. |
+| Pandemia | Desempregado, sem experiência, numa área que exige experiência. Tentou várias vagas e áreas, sem sucesso. |
+| 1º negócio na internet | Lojinha no Instagram para amigos. Ninguém comprou, só o cunhado, que evitou o prejuízo. Ficou no zero a zero. |
+| Opções binárias (~1 ano) | Investiu, viu que era furada, mas montou uma sala de sinais que rendia R$ 2 a 3 mil/mês. Saiu por considerar furada. |
+| NFT (~1 ano) | Criou um canal de notícias de NFT; ganhou cerca de R$ 10 a 15 mil. |
+| Foz do Iguaçu | Mudou com a esposa, que foi cursar medicina no Paraguai, "na cara e na coragem", se sustentando com o dinheiro da sala de sinais e do NFT. |
+| Mar/2022 | Começou no dropshipping com um amigo. |
+| ~Set/2022 | Primeiro R$ 1 milhão faturado, 6 meses depois de começar. |
+| Hoje | Mais de R$ 30 milhões faturados com e-commerce no total. No último ano, R$ 12 a 15 milhões. Migrou de dropshipping para operação com estoque e aplica IA na gestão. |
+
+**Conquistas citadas:** casa própria de mais de R$ 1 milhão; mais de R$ 1 milhão investido; primeiro carro uma Mercedes, depois BMW X4; 3 a 4 viagens internacionais; levou a própria família e a da esposa para conhecer a neve. Meta: comprar um Porsche 911.
+
+**Propósito declarado:** ajudar empresários e empreendedores a ter sucesso no e-commerce e conquistar liberdade financeira, com gestão de equipe enxuta e escala. Forças que ele mesmo aponta: marketing e criativos.
+
 ## Projetos
 | Projeto | O que é | Status |
 |---|---|---|
@@ -39,6 +61,12 @@ _Pendente: levantamento em andamento._
 
 ## Histórias e cases para conteúdo
 - Out/2026: instalação de skills de Instagram no Claude Code + carrossel completo da bolsa YSL Envelope Chain (copy, recorte de produto, fundos de estúdio, 10 slides) feito numa sessão. Arquivos em `carrossel-ysl/`.
+
+## Cuidados de narrativa
+- **Opções binárias:** só contar como erro e lição ("vi que era furada e saí"). Nunca ensinar, recomendar nem glamourizar. A oferta de opções binárias no Brasil não é autorizada pela CVM, e "sala de sinais" é associada a golpe. Não mostrar ganhos dessa fase como mérito.
+- **NFT:** citar como fase de aprendizado (criar audiência e canal), não como investimento.
+- **Faturamento:** sempre deixar claro que é faturamento e não lucro. Ter prova guardada (prints de painel, relatórios) antes de publicar R$ 30 mi, R$ 12-15 mi ou o primeiro milhão.
+- **Bens (casa, carros, 911):** usar como consequência e marco da jornada, nunca como isca principal. O público-alvo são empresários, não quem busca dinheiro rápido.
 
 ## NÃO publicar
 - Detalhes da reorganização societária da Purity e qualquer coisa sobre sócios.
