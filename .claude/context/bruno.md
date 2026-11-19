@@ -182,3 +182,10 @@ Aprovado (ver `produto/funil-v2.md`):
 6. Closer: **a definir** pelo Bruno.
 7. **NÃO** mostrar bolsas/produtos nas telas do sistema (borrar ou usar dados sem imagem). **PODE** contar a história do mercadinho do pai. **PODE** citar o 1º milhão em 6 meses.
 8. Ainda faltam: alcance real (Insights), tamanho da rede quente, custo do implementador.
+
+## Mudança de calendário (19/nov/2026, decisão do Bruno)
+Produção de conteúdo começa aos poucos agora; **vendas só a partir de janeiro**.
+- 23/nov a 2/dez: ajustes do perfil, stories da Black Friday, reativação da base. No máximo 1 post de feed.
+- Dezembro: rampa de conteúdo (2 → 3 posts/semana), Raio-X e "SISTEMA" a partir de 8/dez como **captação de lista**, sem venda.
+- Janeiro: abertura das vendas do diagnóstico (~5/jan), teto de 5 a 6 no mês.
+- Turma fundadora: venda em fevereiro, decisão ~13/fev, início ~2/mar (datas a confirmar). O crédito do diagnóstico passa a valer até a data de decisão da turma.

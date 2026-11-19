@@ -82,6 +82,8 @@ Só por indicação, sem anúncio e sem conteúdo "do zero". 2 ou 3 conversas de
 
 ## Linha do tempo
 
+> **ATUALIZAÇÃO 19/nov:** o Bruno decidiu começar a VENDER só em janeiro. Dezembro vira rampa de conteúdo e captação de lista. Diagnósticos em janeiro (~5/jan, teto de 5 a 6); turma fundadora vendida em fevereiro, decisão ~13/fev, início ~2/mar. A tabela abaixo é a versão anterior.
+
 | Período | O que acontece |
 |---|---|
 | Até 25/nov | Decisões do Bruno, lista de 100 a 120 nomes, áudio do sistema, inventário dos agentes que já rodam (vira o cardápio) |
