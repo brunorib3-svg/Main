@@ -34,7 +34,7 @@ Bruno Ribeiro Leite Pinheiro, 30 anos (nascido em 1996). Nasceu em Volta Redonda
 - **Faturamento:** R$ 12 a 15 milhões no último ano, cerca de R$ 1,2 a 1,5 milhão por pessoa na equipe.
 - **Margem líquida:** 20% a 25%. Publicar só o percentual, não o lucro em reais, salvo decisão do Bruno.
 - **O que fez o 1º milhão em 6 meses:** produto viral + branding + criativos virais + escala no Meta Ads.
-- **Por que saiu do dropshipping para estoque:** a taxação do governo sobre importações. *(Provavelmente o Remessa Conforme/"taxa das blusinhas"; confirmar com o Bruno antes de citar o nome.)*
+- **Por que saiu do dropshipping para estoque:** a taxação das importações pelo Remessa Conforme, a "taxa das blusinhas" (confirmado pelo Bruno).
 
 ## Público que o Bruno quer ajudar
 Empresários que **já têm negócio e já faturam** e querem escalar mais, com autonomia, controle de dados e IA aplicada em tudo. Não é para iniciante nem para quem busca o primeiro dinheiro na internet.
