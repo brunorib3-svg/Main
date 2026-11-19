@@ -85,3 +85,13 @@ _Pendente: levantamento em andamento._
 - Promessas sobre o gateway (taxas, datas, licenças) antes de existirem de fato.
 - Credenciais, chaves, dados de clientes.
 _(Complementar com o levantamento.)_
+
+## Onde acompanhar (ClickUp)
+Pasta **@brunorib3 · Marca Pessoal** no "Espaço da equipe". Toda entrega de agente vira card lá, com link para o arquivo no repositório.
+| Lista | ID | Uso |
+|---|---|---|
+| 🧭 Decisões do Bruno | 1600710000001210 | Decisões que travam o time |
+| 🚀 Plano 30 dias · Diagnóstico | 1600710000001211 | Lançamento do primeiro produto |
+| 🎬 Conteúdo | 1600710000001212 | Um card por post |
+| 🧪 Radar IA · Testes | 1600710000001213 | Testes de IA na operação |
+| 📦 Entregas dos Agentes | 1600710000001214 | Documentos e status do time |
