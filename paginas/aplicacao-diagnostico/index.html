@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diagnóstico de Margem e Gestão com IA · Bruno Ribeiro</title>
+<meta name="description" content="2 calls com os seus números: margem real por pedido, tempo do dono, custo de mídia e um plano de 90 dias por escrito. Para donos de e-commerce que já faturam. 5 vagas em dezembro.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Diagnóstico de Margem e Gestão com IA">
+<meta property="og:description" content="Margem real, tempo do dono e custo de mídia, com os seus números. Plano de 90 dias por escrito. 5 vagas em dezembro.">
+<meta property="og:type" content="website">
+<!-- [IMAGEM: og:image 1200x630, fundo escuro com o título, sem nome de loja] -->
+<meta name="theme-color" content="#0E1113">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+<!-- ============ RASTREAMENTO ============
+[INTEGRAÇÃO: Meta Pixel] Colar o snippet base com o ID do pixel aqui. Eventos já disparados pela página via track():
+  ViewContent (carregamento), Lead (aplicação na faixa), Contact (aplicação fora da faixa -> Raio-X), InitiateCheckout (clique em CTA).
+[INTEGRAÇÃO: GA4] Colar o gtag.js com o ID de medição aqui. Os mesmos eventos vão para o dataLayer.
+[INTEGRAÇÃO: Conversions API] Enviar o evento Lead do servidor (mesmo event_id do navegador, campo hidden "event_id").
+Nenhum ID ou chave foi colado nesta página.
+======================================= -->
+
+<style>
+:root{
+  --ink:#0E1113; --ink-2:#161A1D; --ink-3:#22282C;
+  --paper:#F6F5F1; --card:#FFFFFF; --line:#E2E0D8; --line-dark:#2C3337;
+  --text:#14181A; --muted:#545C61; --muted-dark:#A9B1B6; --on-dark:#EEF0F1;
+  --accent:#146B4C; --accent-hover:#0F5A3F; --accent-soft:#E3F0EA; --accent-dark:#5BCB9C;
+  --warn-soft:#FBF3E3; --warn:#7A5410;
+  --radius:14px; --max:1120px;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:17px;line-height:1.6;color:var(--text);background:var(--paper);overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--accent)}
+h1,h2,h3{line-height:1.18;letter-spacing:-.02em;margin:0 0 .6em}
+h1{font-size:clamp(2rem,6.4vw,3.5rem);font-weight:800}
+h2{font-size:clamp(1.6rem,4.4vw,2.4rem);font-weight:800}
+h3{font-size:1.15rem;font-weight:700}
+p{margin:0 0 1em}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+.narrow{max-width:760px}
+section{padding:64px 0}
+.eyebrow{font-family:var(--mono);font-size:.8rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:14px;display:block}
+.dark{background:var(--ink);color:var(--on-dark)}
+.dark .eyebrow{color:var(--accent-dark)}
+.dark p,.dark li{color:var(--muted-dark)}
+.dark strong{color:var(--on-dark)}
+.muted{color:var(--muted)}
+:focus-visible{outline:3px solid #F2B84B;outline-offset:3px;border-radius:6px}
+.skip{position:absolute;left:-999px;top:8px;background:#fff;color:#000;padding:10px 14px;z-index:99}
+.skip:focus{left:8px}
+
+/* Botões */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:14px 26px;border-radius:10px;background:var(--accent);color:#fff;font-weight:700;font-size:1.02rem;text-decoration:none;border:0;cursor:pointer;transition:background .15s,transform .15s;font-family:inherit}
+.btn:hover{background:var(--accent-hover)}
+.btn:active{transform:translateY(1px)}
+.btn.block{width:100%}
+.btn-ghost{background:transparent;color:var(--on-dark);border:1px solid var(--line-dark)}
+.btn-ghost:hover{background:var(--ink-3)}
+
+/* Topo */
+.top{background:var(--ink);border-bottom:1px solid var(--line-dark)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;min-height:60px}
+.brand{color:var(--on-dark);font-weight:700;text-decoration:none;font-size:.98rem}
+.brand span{color:var(--muted-dark);font-weight:500}
+.top a.mini{color:var(--on-dark);font-size:.9rem;font-weight:600;text-decoration:none;border:1px solid var(--line-dark);padding:8px 14px;border-radius:8px;min-height:44px;display:inline-flex;align-items:center}
+
+/* Hero */
+.hero{padding:44px 0 56px}
+.hero-grid{display:grid;gap:36px}
+.hero h1{color:#fff}
+.hero h1 em{font-style:normal;color:var(--accent-dark)}
+.hero .lead{font-size:1.12rem;color:#C9D0D4;max-width:620px}
+.pill{display:inline-flex;align-items:center;gap:8px;font-family:var(--mono);font-size:.82rem;font-weight:600;color:var(--on-dark);background:var(--ink-3);border:1px solid var(--line-dark);padding:7px 12px;border-radius:99px;margin-bottom:20px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--accent-dark);box-shadow:0 0 0 4px rgba(91,203,156,.18)}
+.hero-cta{display:flex;flex-direction:column;gap:10px;margin:26px 0 8px;max-width:420px}
+.hero-note{font-size:.92rem;color:var(--muted-dark)}
+.facts{background:var(--ink-2);border:1px solid var(--line-dark);border-radius:var(--radius);padding:22px}
+.facts dl{margin:0;display:grid;grid-template-columns:1fr 1fr;gap:18px 16px}
+.facts dt{font-size:.8rem;color:var(--muted-dark);text-transform:uppercase;letter-spacing:.06em;font-family:var(--mono)}
+.facts dd{margin:4px 0 0;color:#fff;font-weight:700;font-size:1.05rem;line-height:1.3}
+
+/* Faixa de prova */
+.proofbar{background:var(--ink-2);border-top:1px solid var(--line-dark);border-bottom:1px solid var(--line-dark);padding:26px 0}
+.proofbar ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.proofbar .n{font-family:var(--mono);font-weight:600;font-size:1.55rem;color:#fff;display:block;line-height:1.2}
+.proofbar .l{font-size:.88rem;color:var(--muted-dark)}
+
+/* Cards e listas */
+.grid{display:grid;gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+.card p:last-child{margin-bottom:0}
+.num{font-family:var(--mono);font-weight:600;color:var(--accent);font-size:.9rem;display:block;margin-bottom:8px}
+.pain li{margin-bottom:10px}
+.data-callout{border-left:3px solid var(--accent);background:var(--accent-soft);padding:16px 18px;border-radius:0 10px 10px 0;margin-top:24px}
+.data-callout p{margin:0}
+.steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.steps li{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px 20px 20px 66px;position:relative}
+.steps li::before{counter-increment:s;content:counter(s);position:absolute;left:20px;top:20px;width:32px;height:32px;border-radius:8px;background:var(--ink);color:#fff;font-family:var(--mono);font-weight:600;display:flex;align-items:center;justify-content:center}
+.steps h3{margin-bottom:4px}
+.steps p{margin:0;color:var(--muted)}
+.tag{display:inline-block;font-family:var(--mono);font-size:.75rem;font-weight:600;padding:2px 8px;border-radius:6px;background:var(--accent-soft);color:var(--accent);margin-left:6px;vertical-align:middle}
+
+/* Quem */
+.who{display:grid;gap:28px;align-items:start}
+.ph{border:1.5px dashed #5C666C;border-radius:var(--radius);background:repeating-linear-gradient(135deg,#1A1F22 0 12px,#1D2326 12px 24px);color:var(--muted-dark);display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;font-family:var(--mono);font-size:.85rem;aspect-ratio:4/5}
+.ph strong{color:#fff;display:block;margin-bottom:6px}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:22px 0}
+.stat{background:var(--ink-2);border:1px solid var(--line-dark);border-radius:12px;padding:16px}
+.stat .n{font-family:var(--mono);font-weight:600;font-size:1.35rem;color:#fff;display:block}
+.stat .l{font-size:.85rem;color:var(--muted-dark);line-height:1.4;display:block;margin-top:2px}
+.fine{font-size:.85rem;color:var(--muted-dark)}
+
+/* Para quem */
+.fit{display:grid;gap:16px}
+.fit ul{list-style:none;padding:0;margin:0}
+.fit li{padding:10px 0 10px 34px;position:relative;border-top:1px solid var(--line)}
+.fit li:first-child{border-top:0}
+.fit li::before{position:absolute;left:0;top:10px;width:22px;height:22px;border-radius:6px;font-weight:800;font-size:.85rem;display:flex;align-items:center;justify-content:center}
+.fit .yes li::before{content:"✓";background:var(--accent-soft);color:var(--accent)}
+.fit .no li::before{content:"✕";background:#F1E7E5;color:#8A2E1F}
+
+/* Investimento */
+.price{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px;display:grid;gap:22px}
+.price .amount{font-family:var(--mono);font-size:2.6rem;font-weight:600;line-height:1;color:var(--text)}
+.price .amount small{font-size:1rem;color:var(--muted);font-family:Inter,sans-serif;font-weight:500}
+.terms{display:grid;gap:14px}
+.term{display:flex;gap:14px;align-items:flex-start}
+.term .ic{flex:0 0 36px;height:36px;border-radius:9px;background:var(--accent-soft);color:var(--accent);display:flex;align-items:center;justify-content:center}
+.term h3{font-size:1rem;margin:0 0 2px}
+.term p{margin:0;color:var(--muted);font-size:.96rem}
+.includes{list-style:none;padding:0;margin:0}
+.includes li{padding:9px 0;border-top:1px solid var(--line);display:flex;gap:10px}
+.includes li:first-child{border-top:0}
+.includes li span:first-child{color:var(--accent);font-weight:800}
+
+/* Formulário */
+.apply{background:var(--ink)}
+.form-card{background:var(--card);color:var(--text);border-radius:18px;padding:24px 20px;max-width:760px;margin:0 auto}
+.form-card h2{color:var(--text)}
+fieldset{border:0;margin:0;padding:0}
+.field{margin-bottom:18px}
+label,.legend{display:block;font-weight:600;font-size:.96rem;margin-bottom:6px}
+.opt{font-weight:500;color:var(--muted);font-size:.88rem}
+input[type=text],input[type=email],input[type=tel],input[type=url],select,textarea{width:100%;min-height:50px;padding:12px 14px;font:inherit;font-size:16px;color:var(--text);background:#fff;border:1.5px solid #C9C6BB;border-radius:10px;transition:border-color .15s}
+textarea{min-height:96px;resize:vertical}
+select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath d='M1 1l6 6 6-6' stroke='%23545C61' stroke-width='2' fill='none'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:40px}
+input:focus,select:focus,textarea:focus{border-color:var(--accent);outline:none;box-shadow:0 0 0 3px rgba(20,107,76,.2)}
+.row2{display:grid;gap:0 16px}
+.choices{display:grid;gap:8px}
+.choice{display:flex;align-items:center;gap:12px;min-height:50px;padding:10px 14px;border:1.5px solid #C9C6BB;border-radius:10px;cursor:pointer;font-weight:500;margin:0}
+.choice input{width:20px;height:20px;accent-color:var(--accent);flex:0 0 auto;margin:0}
+.choice:has(input:checked){border-color:var(--accent);background:var(--accent-soft)}
+.choice:has(input:focus-visible){outline:3px solid #F2B84B;outline-offset:2px}
+.consent{display:flex;gap:12px;align-items:flex-start;font-size:.92rem;color:var(--muted);font-weight:400}
+.consent input{width:22px;height:22px;margin-top:2px;flex:0 0 auto;accent-color:var(--accent)}
+.err{color:#A12B1A;font-size:.88rem;margin-top:6px;display:none}
+.invalid .err{display:block}
+.invalid input,.invalid select,.invalid .choice{border-color:#A12B1A}
+.notice{display:none;border-radius:12px;padding:18px;margin:4px 0 20px;font-size:.96rem}
+.notice.show{display:block}
+.notice h3{font-size:1.02rem;margin-bottom:6px}
+.notice p{margin:0 0 8px}
+.notice p:last-child{margin:0}
+.notice.raiox{background:var(--warn-soft);border:1px solid #E8D6AE;color:#3D2E10}
+.notice.mkt{background:#EEF2F6;border:1px solid #D2DBE5;color:#1F2A36}
+.form-foot{font-size:.85rem;color:var(--muted);margin-top:12px;text-align:center}
+.success{display:none;text-align:left}
+.success.show{display:block}
+.success .badge{width:48px;height:48px;border-radius:12px;background:var(--accent-soft);color:var(--accent);display:flex;align-items:center;justify-content:center;margin-bottom:14px}
+.success ol{padding-left:20px;margin:0 0 12px}
+.success li{margin-bottom:8px}
+
+/* FAQ */
+.faq details{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-bottom:10px}
+.faq summary{cursor:pointer;list-style:none;padding:18px 52px 18px 18px;font-weight:700;position:relative;min-height:44px}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:18px;top:50%;transform:translateY(-50%);font-family:var(--mono);font-size:1.3rem;color:var(--accent)}
+.faq details[open] summary::after{content:"–"}
+.faq .ans{padding:0 18px 18px;color:var(--muted)}
+.faq .ans p:last-child{margin:0}
+
+/* Final */
+.final{text-align:center}
+.final .btn{margin-top:8px}
+footer{background:var(--ink);color:var(--muted-dark);font-size:.88rem;padding:36px 0 110px;border-top:1px solid var(--line-dark)}
+footer a{color:var(--on-dark)}
+footer p{margin:0 0 10px}
+
+/* Barra fixa (mobile) */
+.sticky{position:fixed;left:0;right:0;bottom:0;background:rgba(14,17,19,.96);border-top:1px solid var(--line-dark);padding:10px 16px calc(10px + env(safe-area-inset-bottom));display:flex;align-items:center;gap:12px;z-index:50;transform:translateY(110%);transition:transform .25s}
+.sticky.on{transform:none}
+.sticky .s-txt{color:var(--on-dark);font-size:.84rem;line-height:1.3;flex:1}
+.sticky .s-txt b{font-family:var(--mono);display:block;font-size:.95rem}
+.sticky .btn{min-height:48px;padding:10px 18px;font-size:.95rem}
+
+@media (min-width:760px){
+  section{padding:88px 0}
+  .wrap{padding:0 32px}
+  .proofbar ul{grid-template-columns:repeat(4,1fr)}
+  .grid.c2{grid-template-columns:1fr 1fr}
+  .grid.c4{grid-template-columns:1fr 1fr}
+  .fit{grid-template-columns:1fr 1fr}
+  .row2{grid-template-columns:1fr 1fr}
+  .form-card{padding:40px}
+  .choices.c2{grid-template-columns:1fr 1fr}
+  .price{grid-template-columns:1fr 1.25fr;padding:36px;gap:36px}
+}
+@media (min-width:1024px){
+  .hero{padding:72px 0 88px}
+  .hero-grid{grid-template-columns:1.35fr 1fr;align-items:center;gap:56px}
+  .grid.c4{grid-template-columns:repeat(4,1fr)}
+  .who{grid-template-columns:.8fr 1.2fr;gap:56px}
+  .sticky{display:none}
+  footer{padding-bottom:36px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#aplicar">Pular para a aplicação</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#topo">Bruno Ribeiro <span>· E-commerce com IA</span></a>
+    <a class="mini" href="#aplicar" data-cta="topo">Aplicar</a>
+  </div>
+</header>
+
+<main id="topo">
+<!-- ============ HERO ============ -->
+<section class="hero dark" aria-labelledby="h1">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="pill"><span class="dot" aria-hidden="true"></span><span><span data-vagas>5</span> vagas em dezembro</span></span>
+      <h1 id="h1">Descubra onde a sua loja está <em>perdendo margem, tempo e dinheiro de mídia</em>, com os seus números.</h1>
+      <p class="lead">Diagnóstico de Margem e Gestão com IA. Em 2 calls comigo, você sai com a sua margem real por pedido, o mapa do que passa pelas suas mãos, o custo de cada venda na mídia e um plano de 90 dias por escrito.</p>
+      <div class="hero-cta">
+        <a class="btn" href="#aplicar" data-cta="hero">Aplicar para uma vaga</a>
+        <span class="hero-note">Para donos de e-commerce que já faturam. A aplicação leva 2 minutos.</span>
+      </div>
+    </div>
+    <div class="facts" aria-label="Resumo da oferta">
+      <dl>
+        <div><dt>Formato</dt><dd>2 calls 1:1<br>75 min + 30 min</dd></div>
+        <div><dt>Entrega</dt><dd>Plano de 90 dias por escrito</dd></div>
+        <div><dt>Investimento</dt><dd>R$ 2.000</dd></div>
+        <div><dt>Garantia</dt><dd>Até a devolutiva</dd></div>
+        <div><dt>Crédito</dt><dd>Integral até 16/jan</dd></div>
+        <div><dt>Calls</dt><dd>3 a 19 de dezembro</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROVA RÁPIDA ============ -->
+<div class="proofbar dark" aria-label="Quem conduz o diagnóstico">
+  <div class="wrap">
+    <ul>
+      <li><span class="n">R$ 30 mi+</span><span class="l">faturados com e-commerce desde 2022</span></li>
+      <li><span class="n">R$ 12 a 15 mi</span><span class="l">de faturamento no último ano</span></li>
+      <li><span class="n">8 pessoas</span><span class="l">na equipe da operação</span></li>
+      <li><span class="n">20%+</span><span class="l">de margem líquida</span></li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============ PROBLEMA ============ -->
+<section aria-labelledby="h-prob">
+  <div class="wrap narrow">
+    <span class="eyebrow">O problema</span>
+    <h2 id="h-prob">Você vende bem. Mas sabe quanto sobra?</h2>
+    <p>Depois de um certo tamanho, o faturamento sobe e o dono não enxerga para onde vai o dinheiro. Se algum destes pontos é a sua rotina, o diagnóstico é para você:</p>
+    <ul class="pain">
+      <li><strong>A margem só aparece no fim do mês</strong>, ou não aparece. Frete grátis, cupom, parcelamento e devolução ficam fora da conta.</li>
+      <li><strong>Tudo passa por você:</strong> aprovar criativo, conferir anúncio, responder cliente, fazer compra. Se você some 15 dias, a operação trava.</li>
+      <li><strong>A mídia fica cada vez mais cara</strong> e não existe uma regra clara para pausar ou escalar campanha.</li>
+      <li><strong>Dinheiro escapa pelo caixa:</strong> Pix gerado e não pago, carrinho abandonado, chargeback, troca.</li>
+    </ul>
+    <div class="data-callout">
+      <p><strong>Exemplo da minha operação:</strong> quando medi, 32% dos pedidos no Pix não eram pagos. Ninguém cobrava porque ninguém via o número. É esse tipo de vazamento que o diagnóstico procura nos seus dados.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ O QUE VOCÊ LEVA ============ -->
+<section style="padding-top:0" aria-labelledby="h-leva">
+  <div class="wrap">
+    <span class="eyebrow">O que você leva</span>
+    <h2 id="h-leva">Quatro respostas, com os seus números</h2>
+    <div class="grid c4">
+      <article class="card"><span class="num">01 · Margem</span><h3>Margem de contribuição real por pedido</h3><p class="muted">Produto, frete, taxas, impostos, devoluções e mídia na mesma conta. E onde ela está vazando.</p></article>
+      <article class="card"><span class="num">02 · Tempo do dono</span><h3>O mapa das horas que passam por você</h3><p class="muted">Em quê, quanto por semana, e o que dá para tirar das suas mãos com processo e IA.</p></article>
+      <article class="card"><span class="num">03 · CAC</span><h3>Quanto custa trazer cada venda</h3><p class="muted">Mídia sobre faturamento por canal e o que muda na rotina de criativo e de leitura de anúncios.</p></article>
+      <article class="card"><span class="num">04 · Plano</span><h3>Plano de 90 dias por escrito</h3><p class="muted">As 3 a 5 ações de maior retorno, em ordem, com quem faz, como medir e o valor de hoje de cada indicador.</p></article>
+    </div>
+    <p class="muted" style="margin-top:22px;max-width:760px">Eu não prometo faturamento nem aumento de margem. Prometo clareza com número e um plano executável. O resultado depende da execução.</p>
+  </div>
+</section>
+
+<!-- ============ COMO FUNCIONA ============ -->
+<section style="padding-top:0" aria-labelledby="h-como">
+  <div class="wrap narrow">
+    <span class="eyebrow">Como funciona</span>
+    <h2 id="h-como">Dados antes, perguntas na primeira call, plano na segunda</h2>
+    <ol class="steps">
+      <li><h3>Aplicação</h3><p>Você responde o formulário abaixo. Se fizer sentido, eu te chamo no WhatsApp com o próximo passo. Se não fizer, eu falo isso também.</p></li>
+      <li><h3>Checklist de dados <span class="tag">~30 min</span></h3><p>Pedidos de 90 dias, anúncios, custo por produto, relatório do meio de pagamento e volume de atendimento. Sem dados, o diagnóstico fica qualitativo, e eu aviso antes.</p></li>
+      <li><h3>Call 1 · Mapeamento <span class="tag">75 min</span></h3><p>Eu só pergunto e entendo a sua operação. Não vendo nada nessa call.</p></li>
+      <li><h3>Call 2 · Devolutiva <span class="tag">30 min</span></h3><p>Até 5 dias úteis depois: o plano de 90 dias por escrito e as opções para executar, inclusive sozinho.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ QUEM CONDUZ ============ -->
+<section class="dark" aria-labelledby="h-quem">
+  <div class="wrap who">
+    <figure style="margin:0">
+      <div class="ph" role="img" aria-label="Espaço reservado para a foto das plaquinhas de faturamento">
+        <div><strong>[IMAGEM: plaquinhas]</strong>Foto das plaquinhas de faturamento (R$ 30 mi). Conferir e borrar o nome das lojas antes de publicar. WebP, 960x1200, lazy.</div>
+      </div>
+      <figcaption class="fine" style="margin-top:10px">Plaquinhas de faturamento. Valores de faturamento, não de lucro.</figcaption>
+    </figure>
+    <div>
+      <span class="eyebrow">Quem está do outro lado</span>
+      <h2 id="h-quem" style="color:#fff">Um operador, não um guru.</h2>
+      <p>Opero e-commerce com loja própria desde 2022. Foram mais de <strong>R$ 30 milhões em faturamento</strong>, <strong>R$ 12 a 15 milhões no último ano</strong>, com uma equipe de <strong>8 pessoas</strong> e margem líquida entre <strong>20% e 25%</strong>.</p>
+      <p>A gestão roda num sistema com IA que eu mesmo construí: números do dia, atendimento, pós-venda, logística e rotina do time num lugar só. O diagnóstico usa o mesmo olhar que eu uso na minha operação.</p>
+      <div class="stats">
+        <div class="stat"><span class="n">R$ 30 mi+</span><span class="l">faturamento acumulado</span></div>
+        <div class="stat"><span class="n">6 meses</span><span class="l">até o 1º milhão faturado</span></div>
+        <div class="stat"><span class="n">8 pessoas</span><span class="l">na equipe</span></div>
+        <div class="stat"><span class="n">20%+</span><span class="l">de margem líquida</span></div>
+      </div>
+      <p class="fine">Este é o primeiro lote aberto do diagnóstico, por isso não há depoimentos de clientes nesta página. O que existe é a minha operação e a garantia.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PARA QUEM É ============ -->
+<section aria-labelledby="h-fit">
+  <div class="wrap">
+    <span class="eyebrow">Encaixe</span>
+    <h2 id="h-fit">Para quem é, e para quem não é</h2>
+    <div class="fit">
+      <div class="card yes">
+        <h3>É para você se</h3>
+        <ul>
+          <li>Você tem loja própria e já fatura a partir de R$ 100 mil por mês.</li>
+          <li>Sente que vende bem e sobra pouco, ou não sabe exatamente quanto sobra.</li>
+          <li>Tudo passa por você: criativo, anúncio, cliente, compra.</li>
+          <li>Topa mandar os dados antes da call (pedidos, anúncios, custos).</li>
+        </ul>
+      </div>
+      <div class="card no">
+        <h3>Não é para você se</h3>
+        <ul>
+          <li>Ainda não vende ou quer "começar no digital".</li>
+          <li>Procura alguém para rodar o tráfego ou fazer a loja.</li>
+          <li>Vende quase tudo em marketplace. Minha experiência é loja própria.</li>
+          <li>Quer aprender prompt ou ferramenta de IA. Aqui o assunto é a operação.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INVESTIMENTO ============ -->
+<section style="padding-top:0" aria-labelledby="h-preco">
+  <div class="wrap">
+    <span class="eyebrow">Investimento</span>
+    <h2 id="h-preco">O risco do dinheiro fica comigo</h2>
+    <div class="price">
+      <div>
+        <p class="muted" style="margin-bottom:6px">Diagnóstico de Margem e Gestão com IA</p>
+        <div class="amount">R$ 2.000</div>
+        <p class="muted" style="margin-top:10px;font-size:.92rem">[DADO: forma de pagamento e parcelamento]</p>
+        <ul class="includes" style="margin-top:18px">
+          <li><span aria-hidden="true">+</span><span>Checklist de dados e briefing pré-call</span></li>
+          <li><span aria-hidden="true">+</span><span>Call 1 · Mapeamento (75 min)</span></li>
+          <li><span aria-hidden="true">+</span><span>Call 2 · Devolutiva (30 min) com plano de 90 dias por escrito</span></li>
+          <li><span aria-hidden="true">+</span><span>1 agente-modelo de IA configurado com as informações da sua loja (sem integração com sistemas)</span></li>
+          <li><span aria-hidden="true">+</span><span>Bônus: kit de agentes-modelo para o time testar [DADO: confirmar se fica pronto até a 1ª devolutiva]</span></li>
+        </ul>
+      </div>
+      <div class="terms">
+        <div class="term"><div class="ic" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></div><div><h3>Garantia até a devolutiva</h3><p>Se, depois de ver o plano na devolutiva, você achar que não valeu os R$ 2.000, eu devolvo tudo. Sem formulário: é só me dizer na própria call.</p></div></div>
+        <div class="term"><div class="ic" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 12h16M12 4v16"/></svg></div><div><h3>Crédito integral até 16/jan</h3><p>Se decidir seguir comigo na turma fundadora ou na implementação até 16 de janeiro de 2027, os R$ 2.000 viram desconto.</p></div></div>
+        <div class="term"><div class="ic" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div><div><h3><span data-vagas>5</span> vagas em dezembro</h3><p>É o que cabe na minha agenda junto com a operação. Calls entre 3 e 19 de dezembro. Lotou, a próxima abertura é em fevereiro.</p></div></div>
+        <a class="btn block" href="#aplicar" data-cta="preco">Aplicar para uma vaga</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ APLICAÇÃO ============ -->
+<section class="apply" id="aplicar" aria-labelledby="h-form">
+  <div class="wrap">
+    <div class="form-card">
+      <div id="form-area">
+        <span class="eyebrow">Aplicação · 2 minutos</span>
+        <h2 id="h-form">Aplicar para o diagnóstico</h2>
+        <p class="muted">Leio todas as aplicações. Se a sua operação tiver encaixe, te chamo no WhatsApp com o próximo passo. Nenhum pagamento é feito aqui.</p>
+
+        <!--
+          [INTEGRAÇÃO: destino dos leads]
+          Sugestão: POST para um webhook (n8n/Make ou rota própria no Supabase) que grava no CRM com a tag
+          "diagnostico" ou "raio-x", e avisa o Bruno no WhatsApp quando a aplicação estiver na faixa.
+          Preencher LEAD_ENDPOINT no script do fim da página. Não colar chaves no HTML.
+        -->
+        <form id="app-form" novalidate>
+          <input type="hidden" name="origem" value="aplicacao-diagnostico">
+          <input type="hidden" name="utm_source"><input type="hidden" name="utm_medium"><input type="hidden" name="utm_campaign"><input type="hidden" name="utm_content"><input type="hidden" name="utm_term">
+          <input type="hidden" name="fbclid"><input type="hidden" name="event_id">
+
+          <div class="field" data-req>
+            <label for="f-nome">Nome</label>
+            <input id="f-nome" name="nome" type="text" autocomplete="name" required>
+            <div class="err" role="alert">Informe seu nome.</div>
+          </div>
+          <div class="row2">
+            <div class="field" data-req>
+              <label for="f-whats">WhatsApp com DDD</label>
+              <input id="f-whats" name="whatsapp" type="tel" inputmode="tel" autocomplete="tel" placeholder="(11) 99999-9999" required>
+              <div class="err" role="alert">Informe um WhatsApp com DDD.</div>
+            </div>
+            <div class="field" data-req>
+              <label for="f-email">E-mail</label>
+              <input id="f-email" name="email" type="email" autocomplete="email" required>
+              <div class="err" role="alert">Informe um e-mail válido.</div>
+            </div>
+          </div>
+          <div class="row2">
+            <div class="field">
+              <label for="f-site">Site da loja <span class="opt">(opcional)</span></label>
+              <input id="f-site" name="site" type="text" inputmode="url" autocomplete="url" placeholder="sualoja.com.br">
+            </div>
+            <div class="field" data-req>
+              <label for="f-plat">Plataforma da loja</label>
+              <select id="f-plat" name="plataforma" required>
+                <option value="">Selecione</option>
+                <option>Shopify</option>
+                <option>Nuvemshop</option>
+                <option>Yampi</option>
+                <option>Tray</option>
+                <option>VTEX</option>
+                <option>WooCommerce</option>
+                <option>Loja Integrada</option>
+                <option>Outra plataforma</option>
+                <option value="marketplace">Vendo principalmente em marketplace</option>
+                <option value="sem-loja">Ainda não tenho loja online</option>
+              </select>
+              <div class="err" role="alert">Selecione a plataforma.</div>
+            </div>
+          </div>
+
+          <fieldset class="field" data-req data-group="faturamento">
+            <legend class="legend">Faturamento médio por mês</legend>
+            <div class="choices c2">
+              <label class="choice"><input type="radio" name="faturamento" value="nao-vendo" data-fit="out"> Ainda não vendo online</label>
+              <label class="choice"><input type="radio" name="faturamento" value="ate-50k" data-fit="out"> Até R$ 50 mil</label>
+              <label class="choice"><input type="radio" name="faturamento" value="50-100k" data-fit="out"> R$ 50 mil a R$ 100 mil</label>
+              <label class="choice"><input type="radio" name="faturamento" value="100-300k" data-fit="in"> R$ 100 mil a R$ 300 mil</label>
+              <label class="choice"><input type="radio" name="faturamento" value="300k-1mi" data-fit="in"> R$ 300 mil a R$ 1 milhão</label>
+              <label class="choice"><input type="radio" name="faturamento" value="1mi+" data-fit="in"> Acima de R$ 1 milhão</label>
+            </div>
+            <div class="err" role="alert">Selecione uma faixa.</div>
+          </fieldset>
+
+          <div class="notice raiox" id="notice-raiox" role="status" aria-live="polite">
+            <h3>Obrigado pela sinceridade.</h3>
+            <p>Pelo que você marcou, o diagnóstico ainda não é o melhor uso do seu dinheiro agora. Ele é feito para operações que já faturam a partir de R$ 100 mil por mês, e eu prefiro não te vender algo que vai te ajudar pouco.</p>
+            <p>O que eu recomendo: o <strong>Raio-X da Operação</strong>, gratuito, que te ajuda a organizar a base. Ele sai em 8/dez. Deixe seu nome, WhatsApp e e-mail e eu te envio assim que estiver no ar. Quando a operação crescer, você é chamado primeiro para a próxima abertura.</p>
+          </div>
+
+          <div class="qual" id="qual-fields">
+            <fieldset class="field" data-req data-group="equipe" data-qual>
+              <legend class="legend">Tamanho da equipe (sem contar você)</legend>
+              <div class="choices c2">
+                <label class="choice"><input type="radio" name="equipe" value="0"> Só eu</label>
+                <label class="choice"><input type="radio" name="equipe" value="1-5"> 1 a 5 pessoas</label>
+                <label class="choice"><input type="radio" name="equipe" value="6-15"> 6 a 15 pessoas</label>
+                <label class="choice"><input type="radio" name="equipe" value="16+"> 16 ou mais</label>
+              </div>
+              <div class="err" role="alert">Selecione o tamanho da equipe.</div>
+            </fieldset>
+
+            <div class="field" data-req data-qual>
+              <label for="f-gargalo">Maior gargalo hoje</label>
+              <select id="f-gargalo" name="gargalo" required>
+                <option value="">Selecione</option>
+                <option value="margem">Não sei quanto sobra (margem)</option>
+                <option value="tempo">Tudo passa por mim (tempo do dono)</option>
+                <option value="cac">Mídia cara, custo por venda subindo</option>
+                <option value="atendimento">Atendimento e pós-venda no WhatsApp</option>
+                <option value="caixa">Caixa: Pix não pago, carrinho, chargeback, estoque</option>
+                <option value="time">Rotina e cobrança do time</option>
+                <option value="outro">Outro</option>
+              </select>
+              <div class="err" role="alert">Selecione o maior gargalo.</div>
+            </div>
+            <div class="field">
+              <label for="f-detalhe">Em uma frase, o que mais te incomoda na operação hoje? <span class="opt">(opcional)</span></label>
+              <textarea id="f-detalhe" name="detalhe" maxlength="500"></textarea>
+            </div>
+
+            <fieldset class="field" data-req data-group="urgencia" data-qual>
+              <legend class="legend">Quando você quer resolver isso?</legend>
+              <div class="choices">
+                <label class="choice"><input type="radio" name="urgencia" value="dezembro"> Agora, em dezembro</label>
+                <label class="choice"><input type="radio" name="urgencia" value="janeiro"> No começo de janeiro</label>
+                <label class="choice"><input type="radio" name="urgencia" value="pesquisando"> Ainda estou pesquisando</label>
+              </div>
+              <div class="err" role="alert">Selecione uma opção.</div>
+            </fieldset>
+          </div>
+
+          <div class="notice mkt" id="notice-mkt" role="status" aria-live="polite">
+            <p><strong>Aviso honesto:</strong> minha experiência é loja própria. Se a maior parte das suas vendas é em marketplace, o diagnóstico vai te ajudar menos. Pode aplicar mesmo assim, e eu te digo com sinceridade se faz sentido.</p>
+          </div>
+
+          <div class="field" data-req data-group="lgpd">
+            <label class="consent"><input type="checkbox" name="consentimento" value="sim" required> <span>Autorizo o contato por WhatsApp e e-mail sobre esta aplicação e concordo com a <a href="#privacidade">política de privacidade</a>. Posso pedir a exclusão dos meus dados a qualquer momento.</span></label>
+            <div class="err" role="alert">É preciso autorizar o contato para enviar.</div>
+          </div>
+
+          <button class="btn block" type="submit" id="submit-btn">Enviar aplicação</button>
+          <p class="form-foot" id="form-foot">Garantia até a devolutiva · crédito integral até 16/jan</p>
+        </form>
+      </div>
+
+      <div class="success" id="success-in" role="status" tabindex="-1">
+        <div class="badge" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
+        <h2>Aplicação recebida.</h2>
+        <p class="muted">Próximos passos:</p>
+        <ol>
+          <li>Eu leio a sua aplicação e te chamo no WhatsApp em até [DADO: prazo de retorno, ex.: 1 dia útil].</li>
+          <li>Se fizer sentido, te mando o link de pagamento e, assim que cair, a lista de dados e a agenda.</li>
+          <li>Já vá separando a exportação de pedidos dos últimos 90 dias e o gasto de anúncios do mesmo período.</li>
+        </ol>
+        <p class="muted" style="margin:0">Se precisar falar antes: [DADO: link do WhatsApp do Bruno].</p>
+      </div>
+      <div class="success" id="success-out" role="status" tabindex="-1">
+        <div class="badge" aria-hidden="true"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></div>
+        <h2>Pronto, você está na lista do Raio-X.</h2>
+        <p class="muted">O Raio-X da Operação sai em 8/dez e chega no seu WhatsApp e e-mail. Enquanto isso, acompanhe os bastidores da operação no Instagram.</p>
+        <a class="btn" href="https://www.instagram.com/brunorib3/" rel="noopener">Seguir @brunorib3</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq" aria-labelledby="h-faq">
+  <div class="wrap narrow">
+    <span class="eyebrow">Perguntas</span>
+    <h2 id="h-faq">Perguntas frequentes</h2>
+    <details><summary>Já uso ChatGPT na loja. Isso muda alguma coisa?</summary><div class="ans"><p>Ótimo, você já tem a base. O diagnóstico não é sobre ferramenta: é descobrir onde a IA e o processo devolvem mais margem e tempo na sua operação, e em que ordem atacar. A maioria usa IA para escrever legenda e deixa a margem e a rotina do dono de fora.</p></div></details>
+    <details><summary>No fim você vai me vender mentoria?</summary><div class="ans"><p>Na devolutiva eu te mostro 3 caminhos, e um deles é fazer sozinho com o plano. Te digo qual eu acho que é o seu, mesmo que seja o sozinho. Se não fizer sentido seguir comigo, você fica com o plano e o agente-modelo.</p></div></details>
+    <details><summary>Tem resultado de cliente? Quem já fez?</summary><div class="ans"><p>Este é o primeiro lote aberto, então não vou te mostrar depoimento que não existe. O que eu tenho é a minha operação: R$ 12 a 15 milhões de faturamento no último ano, 8 pessoas, margem líquida de 20% a 25%, tudo gerido com o sistema que eu construí. E tem a garantia.</p></div></details>
+    <details><summary>Não tenho tempo, estou atolado.</summary><div class="ans"><p>É exatamente para quem está atolado. São 75 + 30 minutos no total, mais uns 30 minutos para separar os dados. E metade do diagnóstico é mapear o que está passando pelas suas mãos e não deveria.</p></div></details>
+    <details><summary>Prefiro deixar para depois das festas.</summary><div class="ans"><p>Os dados da Black Friday são o melhor material para o diagnóstico, por isso faço em dezembro. Se preferir, você garante a vaga agora e a call fica para a semana de 6/jan. O crédito continua valendo até 16/jan.</p></div></details>
+    <details><summary>Minha operação é diferente (nicho, marketplace, loja física).</summary><div class="ans"><p>Se for loja própria, a lógica de margem, rotina do dono e custo de mídia é a mesma, muda o número. Se a maior parte das vendas for marketplace ou loja física, minha experiência é loja própria e o diagnóstico vai te ajudar menos. Nesse caso, prefiro não vender.</p></div></details>
+    <details><summary>E se eu não tiver todos os dados?</summary><div class="ans"><p>A call acontece, mas o diagnóstico fica qualitativo, sem a conta de margem. Eu aviso antes. Planilha simples de custo por produto já serve.</p></div></details>
+    <details><summary>Como funciona o pagamento?</summary><div class="ans"><p>O pagamento só acontece depois que eu confirmo o encaixe pelo WhatsApp. [DADO: Pix, link de cartão, parcelamento]</p></div></details>
+  </div>
+</section>
+
+<!-- ============ CTA FINAL ============ -->
+<section class="final dark" aria-labelledby="h-final">
+  <div class="wrap narrow">
+    <span class="eyebrow">Dezembro · <span data-vagas>5</span> vagas</span>
+    <h2 id="h-final" style="color:#fff">Comece 2027 sabendo quanto sobra de cada pedido.</h2>
+    <p>2 calls, plano de 90 dias por escrito, garantia até a devolutiva e crédito integral até 16/jan.</p>
+    <a class="btn" href="#aplicar" data-cta="final">Aplicar para uma vaga</a>
+  </div>
+</section>
+</main>
+
+<footer id="privacidade">
+  <div class="wrap narrow">
+    <p><strong style="color:#fff">Privacidade (LGPD).</strong> Os dados enviados nesta página são usados só para avaliar a sua aplicação e entrar em contato sobre o diagnóstico ou o Raio-X da Operação. Não são vendidos nem compartilhados para outros fins. Para acessar, corrigir ou excluir seus dados, escreva para [DADO: e-mail de privacidade]. Política completa: [DADO: link da política de privacidade].</p>
+    <p>Valores citados nesta página são de faturamento, não de lucro. Resultados dependem da execução de cada operação.</p>
+    <p>© 2026 Bruno Ribeiro · <a href="https://www.instagram.com/brunorib3/" rel="noopener">@brunorib3</a> · [DADO: CNPJ ou razão social de quem emite a cobrança]</p>
+  </div>
+</footer>
+
+<div class="sticky" id="sticky" aria-hidden="true">
+  <div class="s-txt"><b>R$ 2.000 · <span data-vagas>5</span> vagas</b>Garantia até a devolutiva</div>
+  <a class="btn" href="#aplicar" data-cta="sticky" tabindex="-1">Aplicar</a>
+</div>
+
+<script>
+(function(){
+  // ===== Configuração =====
+  var LEAD_ENDPOINT = ""; // [INTEGRAÇÃO: destino dos leads] URL do webhook/CRM. Vazio = modo prévia (não envia).
+  var VAGAS = 5;          // [DADO: atualizar o contador real de vagas]
+
+  document.querySelectorAll('[data-vagas]').forEach(function(el){ el.textContent = VAGAS; });
+
+  // ===== Rastreamento (sem IDs) =====
+  window.dataLayer = window.dataLayer || [];
+  function track(ev, params){
+    params = params || {};
+    window.dataLayer.push(Object.assign({event: ev}, params));
+    if (typeof window.fbq === 'function') window.fbq('track', ev, params, params.event_id ? {eventID: params.event_id} : undefined);
+    if (typeof window.gtag === 'function') window.gtag('event', ev, params);
+  }
+  track('ViewContent', {content_name: 'diagnostico'});
+  document.querySelectorAll('[data-cta]').forEach(function(a){
+    a.addEventListener('click', function(){ track('InitiateCheckout', {cta: a.getAttribute('data-cta')}); });
+  });
+
+  // ===== UTMs =====
+  var form = document.getElementById('app-form');
+  var qs = new URLSearchParams(location.search);
+  ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','fbclid'].forEach(function(k){
+    var v = qs.get(k) || sessionStorage.getItem(k) || '';
+    if (qs.get(k)) sessionStorage.setItem(k, v);
+    form.elements[k].value = v;
+  });
+
+  // ===== Qualificação =====
+  var noticeRaiox = document.getElementById('notice-raiox');
+  var noticeMkt = document.getElementById('notice-mkt');
+  var qual = document.getElementById('qual-fields');
+  var btn = document.getElementById('submit-btn');
+  var foot = document.getElementById('form-foot');
+  function isOut(){
+    var f = form.querySelector('input[name=faturamento]:checked');
+    return (f && f.getAttribute('data-fit') === 'out') || form.elements.plataforma.value === 'sem-loja';
+  }
+  function update(){
+    var out = isOut();
+    noticeRaiox.classList.toggle('show', out);
+    qual.hidden = out;
+    btn.textContent = out ? 'Quero receber o Raio-X' : 'Enviar aplicação';
+    foot.textContent = out ? 'Gratuito · sai em 8/dez' : 'Garantia até a devolutiva · crédito integral até 16/jan';
+    noticeMkt.classList.toggle('show', !out && form.elements.plataforma.value === 'marketplace');
+  }
+  form.addEventListener('change', function(e){
+    update();
+    var fld = e.target.closest('.field'); if (fld) fld.classList.remove('invalid');
+  });
+
+  // ===== Validação =====
+  function valid(field){
+    var g = field.getAttribute('data-group');
+    if (g === 'lgpd') return form.elements.consentimento.checked;
+    if (g) return !!form.querySelector('input[name='+g+']:checked');
+    var el = field.querySelector('input,select,textarea');
+    var v = (el.value || '').trim();
+    if (!v) return false;
+    if (el.type === 'email') return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+    if (el.type === 'tel') return v.replace(/\D/g,'').length >= 10;
+    return true;
+  }
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var out = isOut(), first = null;
+    form.querySelectorAll('[data-req]').forEach(function(f){
+      if (out && f.hasAttribute('data-qual')) { f.classList.remove('invalid'); return; }
+      var ok = valid(f);
+      f.classList.toggle('invalid', !ok);
+      if (!ok && !first) first = f;
+    });
+    if (first) { var i = first.querySelector('input,select,textarea'); if (i) i.focus(); return; }
+
+    var eventId = 'lead_' + Date.now() + '_' + Math.random().toString(36).slice(2,8);
+    form.elements.event_id.value = eventId;
+    var data = Object.fromEntries(new FormData(form).entries());
+    data.segmento = out ? 'raio-x' : 'diagnostico';
+    data.enviado_em = new Date().toISOString();
+    data.pagina = location.href;
+
+    btn.disabled = true; btn.textContent = 'Enviando...';
+    var send = LEAD_ENDPOINT
+      ? fetch(LEAD_ENDPOINT, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(data)})
+          .then(function(r){ if(!r.ok) throw new Error(r.status); })
+      : Promise.resolve(console.info('[prévia] lead não enviado, LEAD_ENDPOINT vazio:', data));
+
+    send.then(function(){
+      track(out ? 'Contact' : 'Lead', {content_name: data.segmento, faturamento: data.faturamento, event_id: eventId});
+      document.getElementById('form-area').hidden = true;
+      var s = document.getElementById(out ? 'success-out' : 'success-in');
+      s.classList.add('show'); s.focus();
+      s.scrollIntoView({behavior:'smooth', block:'start'});
+    }).catch(function(){
+      btn.disabled = false; update();
+      alert('Não conseguimos enviar agora. Tente de novo em instantes.');
+    });
+  });
+
+  // ===== Barra fixa no celular =====
+  var sticky = document.getElementById('sticky');
+  var hero = document.querySelector('.hero');
+  var apply = document.getElementById('aplicar');
+  var heroOut = false, applyIn = false;
+  function syncSticky(){ sticky.classList.toggle('on', heroOut && !applyIn); }
+  if ('IntersectionObserver' in window){
+    new IntersectionObserver(function(en){ heroOut = !en[0].isIntersecting; syncSticky(); }).observe(hero);
+    new IntersectionObserver(function(en){ applyIn = en[0].isIntersecting; syncSticky(); }).observe(apply);
+  }
+})();
+</script>
+</body>
+</html>
