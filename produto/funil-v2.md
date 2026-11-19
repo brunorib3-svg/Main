@@ -95,6 +95,8 @@ Só por indicação, sem anúncio e sem conteúdo "do zero". 2 ou 3 conversas de
 | Fevereiro | 2 implementações piloto; YouTube mensal |
 | Março | Piloto da trilha de negócio físico (se validada) |
 
+## Status: APROVADO pelo Bruno em 19/nov (itens 1 a 5 e 7). Closer e dados do item 8 pendentes.
+
 ## Decisões do Bruno para fechar o V2
 1. Teto de **5 a 6 diagnósticos** em dezembro e **diagnóstico em 2 calls**.
 2. Preço do diagnóstico: **R$ 2.000** com crédito até 16/jan e garantia até a devolutiva?

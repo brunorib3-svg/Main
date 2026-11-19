@@ -164,3 +164,14 @@ Pasta **@brunorib3 · Marca Pessoal** no "Espaço da equipe". Toda entrega de ag
 5. **Tempo para a marca pessoal:** 30 h por mês.
 6. **O que falar em público:** NÃO citar Creator OS nem gateway. Pode mostrar **o sistema** que centraliza a gestão das lojas num só lugar (o "AI OS"), mas **sem citar o nome das empresas** (Miss Secret, Purity ou outras). Em conteúdo, falar "minha loja", "minhas operações", "minha marca de moda".
 7. **Números:** liberado usar R$ 30 mi e R$ 12-15 mi (sempre como faturamento). Prova pública já existe: post fixado no perfil com foto das plaquinhas de faturamento somando R$ 30 mi.
+
+## Decisões do Bruno sobre o Funil V2 (19/nov/2026)
+Aprovado (ver `produto/funil-v2.md`):
+1. Teto de 5 a 6 diagnósticos em dezembro, em 2 calls (mapeamento de 75 min + devolutiva de 30 min).
+2. Diagnóstico a **R$ 2.000**, crédito integral até 16/jan, garantia até a devolutiva.
+3. **Turma fundadora** de 4 a 6 empresas, **R$ 8 a 10 mil** por empresa, decisão em 16/jan, início ~26/jan.
+4. Isca **Raio-X da Operação** + palavra-chave **SISTEMA** no direct.
+5. **Anúncio de lista de R$ 4.500** em 30 dias a partir de 8/dez (corte: lead qualificado acima de R$ 80 ou menos de 30% qualificados).
+6. Closer: **a definir** pelo Bruno.
+7. **NÃO** mostrar bolsas/produtos nas telas do sistema (borrar ou usar dados sem imagem). **PODE** contar a história do mercadinho do pai. **PODE** citar o 1º milhão em 6 meses.
+8. Ainda faltam: alcance real (Insights), tamanho da rede quente, custo do implementador.
