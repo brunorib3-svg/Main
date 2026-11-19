@@ -16,7 +16,9 @@
 
 ---
 
-## 1. Fichas dos criadores (17 = 12 Brasil + 5 internacionais)
+## 1. Fichas dos criadores (19 = 14 Brasil + 5 internacionais; Uana Amorim e Dih Santana incluídos em 19/11/2026 a pedido do Bruno)
+
+**Dado novo do Bruno (19/11/2026):** vende **só em site próprio**, sem marketplace. Criadores focados em marketplace ficam mais distantes do posicionamento dele.
 
 ### GRUPO 1: Dropshipping e e-commerce para iniciantes (o grupo do qual o Bruno se diferencia)
 
@@ -98,9 +100,33 @@
 - **Fortes:** **prova de operadora** (o mesmo arquétipo do Bruno), nicho claro (moda), parceria com plataforma.
 - **Fracos:** foco em moda e em pequeno empreendedor; IA não aparece como eixo. Críticas: não encontrado.
 
+#### 2.5 Uana Amorim (Saint Germain) — incluída a pedido do Bruno (19/11/2026)
+- **Identificação:** o nome completo encontrado é **Uana Amorim Nascimento Kirchner**, fundadora da **Saint Germain**, marca brasileira de **relógios minimalistas** (depois semijoias e óculos). Fonte: [Forbes Under 30 2024](https://forbes.com.br/under-30/2024/varejo-e-commerce-u30-2024/eugenio-kirchner-junior-e-uana-amorim/) (entrada conjunta com Eugênio Kirchner Júnior). **Ambiguidade:** existe outra "Saint Germain", uma plataforma de moda online lançada em 2018 por Corina Monteverde, sem relação com ela ([PR Newswire](https://www.prnewswire.com/news-releases/saint-germain-the-e-commerce-site-provides-shoppers-with-exclusive-pieces-and-a-fashion-filled-content-experience-300638656.html)). A grafia "Uana Saint Germain" não apareceu como nome oficial; é a marca associada a ela.
+- **Plataformas e audiência (mai/2024):** Instagram **~110 mil**, TikTok **~123 mil**, YouTube **~1,92 mil**. Fonte: [Baguete, 24/05/2024](https://www.baguete.com.br/noticias/24/05/2024/uana-amorim-e-nova-socia-da-nuvemshop). Números atuais: não encontrado. @: não confirmado.
+- **Prova de operadora (autodeclarada em matérias):** lançamento em ago/2020, estoque numa sala de 10 m², divulgação com 20 microinfluenciadoras, **~R$ 880 mil no 1º ano** ([Forbes U30](https://forbes.com.br/under-30/2024/varejo-e-commerce-u30-2024/eugenio-kirchner-junior-e-uana-amorim/)); **R$ 20 mi em 2022** ([Nuvemshop blog](https://www.nuvemshop.com.br/blog/relogios-para-revenda/)); **R$ 26 mi** "no último ano" ([StartSe, 2024](https://www.startse.com/artigos/influencer-uana-amorim-e-a-nova-socia-da-nuvemshop/)); **R$ 40 mi em 2024 e R$ 150 mi acumulados até set/2025**; 4 lojas físicas abertas em 2025; óculos podem chegar a 30% da receita ([BP Money, out/2025](https://bpmoney.com.br/?p=380958)). Ticket dos relógios: R$ 150 a R$ 300 ([Baguete](https://www.baguete.com.br/noticias/24/05/2024/uana-amorim-e-nova-socia-da-nuvemshop)).
+- **Canais de venda:** site próprio (Nuvemshop) + lojas físicas; aparece página de loja "Saint Germain" no [Mercado Livre](https://www.mercadolivre.com.br/pagina/saintgermansc) (não confirmei se é oficial). Divisão por canal: não encontrado.
+- **Posicionamento/promessa:** fundadora-influenciadora que constrói marca com conteúdo e creators. Desde mai/2024 é **sócia da Nuvemshop** (participação não divulgada), com o papel de produzir conteúdo sobre empreendedorismo e venda online para lojistas. Público: **pequenos e médios lojistas da Nuvemshop** e consumidoras da marca. Fontes: [Meio & Mensagem](https://www.meioemensagem.com.br/gente/nuvemshop-reforca-quadro-societario), [Startups](https://startups.com.br/danca-das-cadeiras/influencer-uana-amorim-e-a-nova-socia-da-nuvemshop/).
+- **O que vende (educação):** **não encontrado** curso ou mentoria própria. Há uma página de mentoria para empreendedoras no Tally sem autoria identificada; não atribuo a ela. Monetização visível: a própria marca + parceria societária com plataforma.
+- **O que posta:** conteúdo da marca e de empreendedorismo (descrição das matérias). Formatos, frequência e ganchos: não encontrado (Instagram não acessado).
+- **Funil visível:** não encontrado para educação; para a marca, influência + microinfluenciadoras → site.
+- **Fortes:** **operadora real e maior que o Bruno em faturamento declarado** (R$ 40 mi em 2024 vs R$ 12 a 15 mi do Bruno no último ano); história de origem forte e verificável em mídia; chancela da Nuvemshop; categoria parecida com a Miss Secret (acessórios femininos, ticket acessível).
+- **Fracos/críticas:** sem produto educacional nem tese de IA ou gestão visível; audiência pessoal modesta para o tamanho da marca. Reclamações no Reclame Aqui sobre a **marca** (defeito de relógio, peça não entregue, cobrança de frete): [relato 1](https://www.reclameaqui.com.br/saint-germain/relogio-apresentou-defeito-com-apenas-7-meses-de-uso-atendimento-falho-e-cobranca-por-defeito-de-possivel-vicio-oculto_ovomgAuBYGAfcH18/), [relato 2](https://www.reclameaqui.com.br/saint-germain/reclamacao-sobre-peca-de-relogio-nao-entregue-mau-atendimento-e-cobranca-indevida-de-nova-taxa-de-entrega_omnG7uPz9LXoh-PF/). Nota geral: não encontrado.
+
 ---
 
 ### GRUPO 3: Tráfego pago e criativos
+
+#### 3.0 Dih Santana (Diego Santana, Ecommerce Rocket) — incluído a pedido do Bruno (19/11/2026)
+- **Identificação:** "Dih Santana" não aparece como nome em matérias; o handle **@dihsantanabr** está ligado a **Diego Santana** no perfil de criador da [Motion](https://motionapp.com/creator/diego-santana/). Considero a identificação confirmada, com essa ressalva.
+- **Plataformas e audiência:** Instagram **~149,8 mil** (estimativa de terceiro, Motion; data não informada). YouTube: não encontrado.
+- **Quem é:** fundador da **Ecommerce Rocket**; especialista em **marketing de performance, conversão e growth para e-commerce**; no e-commerce desde 2006; professor do Ecommerce na Prática ("Gestor de Performance, Mentor e Especialista em anúncios para e-commerce"). Em jul/2024 virou **sócio da martech Nemu** (atribuição/rentabilidade de mídia). Fontes: [Startups, jul/2024](https://startups.com.br/danca-das-cadeiras/nemu-traz-diego-santana-da-ecommerce-rocket-como-novo-socio/), [E-commerce Brasil](https://www.ecommercebrasil.com.br/artigos/oito-pilares-que-fazem-um-e-commerce-vender-bem-todos-os-dias), [ENP professores](https://ecommercenapratica.com/professores/).
+- **Números declarados:** "**mais de 7 mil alunos**" (dito pelo CEO da Nemu); "**R$ 70 milhões em mídia gerida por ano**"; marcas atendidas como Gummy Hair e Honey Be. Fonte: [Startups](https://startups.com.br/danca-das-cadeiras/fundador-do-e-commerce-rocket-vira-socio-na-martech-nemu/).
+- **Posicionamento/promessa:** "e-commerce é necessidade para todas as empresas"; vender todos os dias com performance e conversão ("oito pilares que fazem um e-commerce vender bem todos os dias"). Público: **lojistas e gestores de e-commerce** (inclui quem já fatura). Fontes: [IstoÉ Dinheiro](https://istoe.com.br/e-commerce-e-uma-necessidade-para-todas-as-empresas-afirma-diego-santana), [E-commerce Brasil](https://www.ecommercebrasil.com.br/artigos/oito-pilares-que-fazem-um-e-commerce-vender-bem-todos-os-dias).
+- **O que vende:** programas educacionais da Ecommerce Rocket, gestão de mídia/serviço, e participação na Nemu (software de dados de marketing). **Preços e modelo (lançamento, perpétuo, aplicação): não encontrado.**
+- **Foco de canal:** performance para **loja própria** (Meta/Google, conversão de site). Foco em marketplace: não encontrado. Ou seja, **alinhado ao canal do Bruno (só site próprio)**.
+- **O que posta / funil:** não encontrado (Instagram não acessado).
+- **Fortes:** é, entre os encontrados, o **especialista brasileiro mais focado em e-commerce de site próprio para lojista**, com prova de mídia gerida e um braço de dados (Nemu), o que encosta no eixo "controle de dados" do Bruno.
+- **Fracos/críticas:** não encontrei marca própria operada por ele (perfil de **agência/educador**, não de dono de loja); **não confirmei que seja "o maior do nicho"**: os dados públicos (~150 mil no IG, 7 mil alunos) são menores que os de Pedro Sobral ou da base do ENP. Reclame Aqui: existe página "Diego Silva Santana" com 12 reclamações e sem nota, **sem vínculo confirmado com ele** ([Reclame Aqui](https://www.reclameaqui.com.br/empresa/diego-silva-santana/lista-reclamacoes/)); não atribuo.
 
 #### 3.1 Pedro Sobral (Subido)
 - **@ / plataformas:** @pedrosobral (Instagram), YouTube (lives "Canal Subido", já passou de 296 lives), app "Universo Subido". Fontes: [Recapio Live #296](https://recapio.com/digest/como-comecar-no-trafego-pago-um-tutorial-simples-e-pratico-live-296-by-canal-subido), [App Store](https://apps.apple.com/us/app/-/id1643133204).
@@ -206,6 +232,8 @@
 | Thiago Garavelo | 2 | Dono de loja | Não encontrado | Mentoria + imersão + agência | Não encontrado | Aplicação/serviço | Case R$ 21 mi | Agência |
 | Alfredo Soares / G4 | 2 | Empresário | "Milhões" (CreatorDB) | Imersões, clube | R$ 9,9k a 29,9k; clube ≥ R$ 15 mi fat. | Evento + clube | Marca, cases | Investidor/educador |
 | Letícia Vaz | 2 | Empreendedora de moda | 560 mil IG (2024) | Moda Lab | A partir de R$ 197 (2023) | Perpétuo | A própria marca (R$ 16 mi) | **Sim** |
+| Uana Amorim (Saint Germain) | 2 | Lojista Nuvemshop pequeno/médio | IG ~110 mil, TikTok ~123 mil (mai/2024) | Nenhum educacional encontrado (marca + sócia Nuvemshop) | n/a | Marca pessoal → marca/plataforma | A própria marca (R$ 40 mi em 2024) | **Sim** (site + lojas físicas) |
+| Dih Santana (Diego Santana) | 3 | Lojista e gestor de e-commerce | IG ~149,8 mil (Motion, s/ data) | Programas Ecommerce Rocket, mídia, Nemu | Não encontrado | Não encontrado | 7 mil alunos, R$ 70 mi/ano em mídia | Não (agência/educador) |
 | Pedro Sobral | 3 | Gestor de tráfego | 1,1 a 2,3 mi IG | Assinatura, comunidade, mentoria | R$ 79,90/mês a ~R$ 20k | Escada completa | Verba gerida, alunos | Não (educador) |
 | Tiago Tessmann | 3 | Empreendedor/marketing | 16 mil alunos ativos (2024) | Mentoria | R$ 3.997 | Perpétuo + evento | Longevidade | Agência |
 | Diogo Caixeta | 3/1 | Iniciante/intermed. | 221 mil YT (lista) | Comunidade | Não encontrado | Não encontrado | Não encontrado | Não encontrado |
@@ -229,8 +257,8 @@ Eixo X: **Iniciante ↔ Empresário que já fatura**. Eixo Y: **Promessa de dinh
         ENP (Bruno de Oliveira)     |        Taylor Holiday (CTC)
             Bruno Brito (apps)      |     Nik Sharma     Cody Plofker
                                     |   Garavelo (Vello)
-          Tessmann                  |        G4 / Alfredo Soares
-       Pedro Sobral                 |   Letícia Vaz      Viver de IA (Milagre)
+          Tessmann                  |  Dih Santana   G4 / Alfredo Soares
+       Pedro Sobral                 |   Letícia Vaz  Uana Amorim  Viver de IA
       (formar gestor)               |         ┌───────────────────────────┐
                                     |         │  ESPAÇO VAZIO NO BRASIL   │
                                     |         │ operador ATIVO de loja    │
@@ -251,6 +279,19 @@ INICIANTE <-------------------------+-------->│ R$ 1 a 50 mi/ano + IA     │ 
 2. Quem é operador real (Letícia Vaz) fala com pequeno empreendedor de moda e não usa IA como eixo.
 3. Lacuna de preço: entre **R$ 990/ano (ENP)** e **R$ 9,9k a 29,9k (imersão G4)** não há oferta clara "de operador para operador" focada em e-commerce que já fatura.
 4. Lacuna de formato: "**stack aberto + número de margem + sistema de IA funcionando**" (Cody Plofker, Taylor Holiday) praticamente não existe em português.
+
+### 3.1 Atualização (19/11/2026): Dih Santana e Uana Amorim
+
+**Como cada um se compara ao Bruno, com franqueza:**
+- **Dih Santana: concorrente direto.** Fala com o mesmo público (lojista de site próprio que quer vender mais) e o mesmo canal (performance, sem foco em marketplace encontrado), e ainda tem braço de dados (Nemu). A diferença: ele é **especialista/agência**, não dono de marca operando. O Bruno ganha no "eu rodo a minha loja hoje, com 8 pessoas e IA". Perde em tempo de mercado (desde 2006), base de alunos declarada e mídia gerida. Não achei dados que confirmem que ele é "o maior do nicho"; nos números públicos, Pedro Sobral e ENP são maiores em audiência e alunos. Pode ser o maior em **e-commerce de performance** especificamente, mas isso precisa de checagem direta no Instagram e YouTube.
+- **Uana Amorim: referência para copiar (e o espelho mais incômodo).** É operadora real, com faturamento declarado maior que o do Bruno, numa categoria vizinha à Miss Secret (acessórios de ticket acessível), crescida com microinfluenciadoras e com conteúdo da fundadora. O que copiar: história de origem com números datados e publicados em mídia, uso de creators como motor, parceria com plataforma como canal de autoridade. **Não é concorrente direta hoje**, porque não encontrei produto educacional nem tese de IA/gestão. Se lançar mentoria, vira a concorrente mais perigosa, porque tem prova maior.
+- **Marketplace:** nenhum dos dois é focado em marketplace. A Saint Germain tem presença omnicanal (site, lojas físicas e página no Mercado Livre não confirmada como oficial). Isso a afasta um pouco do discurso "só site próprio" do Bruno. Entre os já mapeados, a ICOMM/Thiago Franco (Mercado Livre) e partes do ENP (curso de marketplace) ficam mais longe do Bruno por esse critério.
+
+**A conclusão "ninguém ocupa o espaço operador + IA + gestão para quem já fatura" continua de pé, mas mais estreita:**
+- Já existe **operador real com autoridade de conteúdo** (Uana, Letícia Vaz). O Bruno **não** pode se vender como "o único operador real que fala de e-commerce".
+- Já existe **especialista em e-commerce de site próprio com dados** (Dih Santana + Nemu). O Bruno não pode se vender só como "o cara da performance".
+- O que segue vazio: **operador ativo + IA aplicada na operação inteira (não só mídia) + gestão por número (faturamento por pessoa, margem) + oferta paga para quem já fatura**. O diferencial defensável é a combinação, e a prova central passa a ser **eficiência** (R$ 1,2 a 1,5 mi por pessoa da equipe, margem de 20% a 25%), não tamanho, porque em tamanho a Uana já está à frente.
+- **Site próprio vira argumento de posicionamento:** "sem marketplace, sem depender de plataforma: site, dados e cliente são meus". Combina com o eixo de controle do `bruno.md` e diferencia de quem ensina Mercado Livre.
 
 ---
 
@@ -307,6 +348,7 @@ Observação: quase todos os preços vêm de terceiros e de anos diferentes (202
 ### 6.1 Posicionamento
 - **Frase proposta:** "Opero e-commerce de R$ [DADO: faturamento validado] com 8 pessoas e IA em tudo. Mostro o sistema para empresário que já fatura escalar sem inchar a equipe."
 - **Inimigo comum:** o "guru de dropshipping" (promessa fácil) e a "consultoria que nunca rodou loja" (teoria). Bruno é o terceiro caminho: quem opera hoje.
+- **Ajuste após Uana e Dih (19/11/2026):** a prova principal deixa de ser tamanho e passa a ser **eficiência e controle**: faturamento por pessoa da equipe, margem em %, 100% site próprio, IA na operação inteira. Evitar a frase "único operador real".
 - **Prova central (em ordem de força):** faturamento por pessoa da equipe, margem líquida em % (20% a 25%), operação real visível (Miss Secret), sistemas de IA funcionando (MISS SECRET AI OS). Tudo com print guardado antes de publicar.
 - **Como contar o passado:** o dropshipping e o 1º milhão em 6 meses entram como "fase que eu superei", com a lição de por que migrou para estoque (Remessa Conforme). Nunca como promessa replicável. Opções binárias só como erro e lição.
 
