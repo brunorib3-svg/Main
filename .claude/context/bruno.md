@@ -79,6 +79,8 @@ _Pendente: levantamento em andamento._
 - **Bens (casa, carros, 911):** usar como consequência e marco da jornada, nunca como isca principal. O público-alvo são empresários, não quem busca dinheiro rápido.
 
 ## NÃO publicar
+- **Nome das empresas** (Miss Secret, Purity, Glow Hair etc.) no conteúdo da marca pessoal. Falar "minha loja" ou "minha operação".
+- **Creator OS e gateway** (decisão de 19/nov).
 - Detalhes da reorganização societária da Purity e qualquer coisa sobre sócios.
 - Expor a Maria sem alinhamento prévio.
 - Termos, taxas negociadas ou problemas com Novus Pagamentos e outros parceiros.
@@ -95,3 +97,12 @@ Pasta **@brunorib3 · Marca Pessoal** no "Espaço da equipe". Toda entrega de ag
 | 🎬 Conteúdo | 1600710000001212 | Um card por post |
 | 🧪 Radar IA · Testes | 1600710000001213 | Testes de IA na operação |
 | 📦 Entregas dos Agentes | 1600710000001214 | Documentos e status do time |
+
+## Decisões do Bruno (19/nov/2026)
+1. **Primeiro produto:** Diagnóstico 1:1 aprovado para o começo.
+2. **Funil:** o Bruno quer uma análise do funil pelos agentes antes de aprovar (em andamento, `produto/analise-funil/`).
+3. **Público:** além de quem já fatura com e-commerce, analisar um segundo público: **empresário com capital que ainda não tem nada online** (quer abrir ou levar o negócio para o digital).
+4. **Implementador técnico:** contratar.
+5. **Tempo para a marca pessoal:** 30 h por mês.
+6. **O que falar em público:** NÃO citar Creator OS nem gateway. Pode mostrar **o sistema** que centraliza a gestão das lojas num só lugar (o "AI OS"), mas **sem citar o nome das empresas** (Miss Secret, Purity ou outras). Em conteúdo, falar "minha loja", "minhas operações", "minha marca de moda".
+7. **Números:** liberado usar R$ 30 mi e R$ 12-15 mi (sempre como faturamento). Prova pública já existe: post fixado no perfil com foto das plaquinhas de faturamento somando R$ 30 mi.
