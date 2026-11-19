@@ -9,7 +9,12 @@
 <meta property="og:title" content="Diagnóstico de Margem e Gestão com IA">
 <meta property="og:description" content="Margem real, tempo do dono e custo de mídia, com os seus números. Plano de 90 dias por escrito. 5 vagas em janeiro.">
 <meta property="og:type" content="website">
-<!-- [IMAGEM: og:image 1200x630, fundo escuro com o título, sem nome de loja] -->
+<!-- [DADO: domínio final] og:image precisa de URL absoluta em produção (ex.: https://DOMINIO/aplicacao-diagnostico/img/og-plaquinhas-1200x630.jpg) -->
+<meta property="og:image" content="img/og-plaquinhas-1200x630.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Bruno Ribeiro com duas placas Appmax de R$ 10 milhões faturados">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#0E1113">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -110,8 +115,10 @@ section{padding:64px 0}
 
 /* Quem */
 .who{display:grid;gap:28px;align-items:start}
-.ph{border:1.5px dashed #5C666C;border-radius:var(--radius);background:repeating-linear-gradient(135deg,#1A1F22 0 12px,#1D2326 12px 24px);color:var(--muted-dark);display:flex;align-items:center;justify-content:center;text-align:center;padding:20px;font-family:var(--mono);font-size:.85rem;aspect-ratio:4/5}
-.ph strong{color:#fff;display:block;margin-bottom:6px}
+.proof-img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;border-radius:var(--radius);border:1px solid var(--line-dark);background:var(--ink-2)}
+.who-head{display:flex;align-items:center;gap:16px;margin-bottom:6px}
+.who-head h2{margin-bottom:0}
+.who-avatar{flex:0 0 72px;width:72px;height:72px;border-radius:50%;object-fit:cover;border:2px solid var(--line-dark);background:var(--ink-2)}
 .stats{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:22px 0}
 .stat{background:var(--ink-2);border:1px solid var(--line-dark);border-radius:12px;padding:16px}
 .stat .n{font-family:var(--mono);font-weight:600;font-size:1.35rem;color:#fff;display:block}
@@ -323,14 +330,17 @@ footer p{margin:0 0 10px}
 <section class="dark" aria-labelledby="h-quem">
   <div class="wrap who">
     <figure style="margin:0">
-      <div class="ph" role="img" aria-label="Espaço reservado para a foto das plaquinhas de faturamento">
-        <div><strong>[IMAGEM: plaquinhas]</strong>Foto das plaquinhas de faturamento (R$ 30 mi). Conferir e borrar o nome das lojas antes de publicar. WebP, 960x1200, lazy.</div>
-      </div>
+      <img class="proof-img" src="img/plaquinhas-1200.webp" srcset="img/plaquinhas-800.webp 800w, img/plaquinhas-1200.webp 1200w" sizes="(min-width:1024px) 420px, (min-width:760px) 640px, calc(100vw - 40px)" width="1200" height="1600" loading="lazy" decoding="async" alt="Bruno Ribeiro segurando duas placas Appmax de R$ 10 milhões faturados, com a placa Yampi de 10 milhões sobre a mesa">
       <figcaption class="fine" style="margin-top:10px">Plaquinhas de faturamento. Valores de faturamento, não de lucro.</figcaption>
     </figure>
     <div>
-      <span class="eyebrow">Quem está do outro lado</span>
-      <h2 id="h-quem" style="color:#fff">Um operador, não um guru.</h2>
+      <div class="who-head">
+        <img class="who-avatar" src="img/bruno-avatar-400.webp" width="400" height="400" loading="lazy" decoding="async" alt="Bruno Ribeiro">
+        <div>
+          <span class="eyebrow">Quem está do outro lado</span>
+          <h2 id="h-quem" style="color:#fff">Um operador, não um guru.</h2>
+        </div>
+      </div>
       <p>Opero e-commerce com loja própria desde 2022. Foram mais de <strong>R$ 30 milhões em faturamento</strong>, <strong>R$ 12 a 15 milhões no último ano</strong>, com uma equipe de <strong>8 pessoas</strong> e margem líquida entre <strong>20% e 25%</strong>.</p>
       <p>A gestão roda num sistema com IA que eu mesmo construí: números do dia, atendimento, pós-venda, logística e rotina do time num lugar só. O diagnóstico usa o mesmo olhar que eu uso na minha operação.</p>
       <div class="stats">
@@ -465,7 +475,7 @@ footer p{margin:0 0 10px}
             <legend class="legend">Faturamento médio por mês</legend>
             <div class="choices c2">
               <label class="choice"><input type="radio" name="faturamento" value="nao-vendo" data-fit="out"> Ainda não vendo online</label>
-              <label class="choice"><input type="radio" name="faturamento" value="ate-50k" data-fit="out"> Até R$ 50 mil</label>
+              <label class="choice"><input type="radio" name="faturamento" value="ate-50k" data-fit="out"> Menos de R$ 50 mil</label>
               <label class="choice"><input type="radio" name="faturamento" value="50-100k" data-fit="in"> R$ 50 mil a R$ 100 mil</label>
               <label class="choice"><input type="radio" name="faturamento" value="100-300k" data-fit="in"> R$ 100 mil a R$ 300 mil</label>
               <label class="choice"><input type="radio" name="faturamento" value="300k-1mi" data-fit="in"> R$ 300 mil a R$ 1 milhão</label>

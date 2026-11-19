@@ -72,12 +72,12 @@ Se não clicar em 2 h: lembrete único "É só tocar em Bora que eu te mando o R
 **P2 · Pergunta 2** (para "Sim, vendo online"; salva no campo `faixa_faturamento`)
 > Em média, quanto a operação fatura por mês? (Fica só entre nós, é para eu te mandar o material certo.)
 >
-> [Até R$ 50 mil] [R$ 50 a 100 mil] [R$ 100 a 300 mil] [R$ 300 mil a 1 mi] [Acima de R$ 1 mi]
+> [Menos de R$ 50 mil] [R$ 50 a 100 mil] [R$ 100 a 300 mil] [R$ 300 mil a 1 mi] [Acima de R$ 1 mi]
 
 **P2b · Pergunta 2 do negócio físico** (para "Tenho negócio físico"; mesmo campo `faixa_faturamento`)
 > E o negócio físico fatura em média quanto por mês?
 >
-> [Até R$ 50 mil] [R$ 50 a 300 mil] [Acima de R$ 300 mil]
+> [Menos de R$ 50 mil] [R$ 50 a 300 mil] [Acima de R$ 300 mil]
 
 **Texto livre em vez de botão (fallback):** "Para eu não errar, responde tocando num dos botões aqui em cima." Após 2 falhas: tag `precisa_humano` e aviso "Vou ler sua mensagem e te respondo por aqui."
 
@@ -98,10 +98,10 @@ Se não clicar em 2 h: lembrete único "É só tocar em Bora que eu te mando o R
 ```
 M0 ─► P1
       ├─ Sim, vendo online ─► P2
-      │     ├─ Até R$ 50 mil ─────────────────► R1 (fora da faixa): C1 ─► Raio-X + lista
+      │     ├─ Menos de R$ 50 mil─────────────────► R1 (fora da faixa): C1 ─► Raio-X + lista
       │     └─ R$ 50 mil ou mais ──────────────► R2 (na faixa): C1 ─► Raio-X + convite para aplicação
       ├─ Negócio físico, sem online ─► P2b
-      │     ├─ Até R$ 50 mil ─► R1 (fora da faixa): C1 ─► Raio-X + lista
+      │     ├─ Menos de R$ 50 mil─► R1 (fora da faixa): C1 ─► Raio-X + lista
       │     └─ R$ 50 mil ou mais ─► R3 (trilha física): C1 ─► Raio-X + tag para a trilha separada
       └─ Ainda não tenho negócio ─► R4: resposta educada, sem oferta e sem lista
 ```

@@ -1,3 +1,5 @@
+> **Atualizado em 19/nov:** esta V1 foi substituída pelo [funil V2](funil-v2.md). O público-alvo confirmado é **R$ 50 mil/mês ou mais** (não R$ 100 mil) e as vendas começam em janeiro. Os valores abaixo são históricos.
+
 # Esteira de produtos e funil @brunorib3, V1
 
 > Autor: especialista-produto · Versão: V1 · Data: 19/nov/2026
