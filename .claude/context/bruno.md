@@ -37,7 +37,14 @@ Bruno Ribeiro Leite Pinheiro, 30 anos (nascido em 1996). Nasceu em Volta Redonda
 - **Por que saiu do dropshipping para estoque:** a taxação das importações pelo Remessa Conforme, a "taxa das blusinhas" (confirmado pelo Bruno).
 
 **Plataformas:** loja principal 100% Yampi; segunda loja Shopify + checkout Yampi.
-**Instagram @brunorib3 (19/nov/2026):** 78 mil seguidores, alcance atual muito baixo (dado do Bruno; números de alcance a confirmar no Insights). A base foi construída em fases anteriores; a aderência ao novo posicionamento é desconhecida.
+**Instagram @brunorib3: Insights de 19/out a 17/nov/2026 (prints do Bruno)**
+- Seguidores: 77.630, saldo de -638 em 30 dias (+688 novos, ~1.300 saídas). Queda contínua.
+- Visualizações: 64,1 mil; contas alcançadas: 6.708 (~8,6% da base). Stories 39 mil (quase só seguidores), Reels 17 mil (~metade não seguidores), posts 7,6 mil.
+- Interações: Reels 895, stories 567, posts 234. Visitas ao perfil 1,1 mil. **Toques no link da bio: 0** (não há link ativo).
+- Público: **83,3% homens**, 16,7% mulheres. **25-34 anos: 49,5%; 35-44: 25%**; 18-24: 12,7%. Cidades: São Paulo 8,3%, Rio 3,4%, BH 1,5%, Goiânia 1,4%, Fortaleza 1,2%. 98,5% português.
+- Horários: atividade forte das 12h às 21h, pico de 18h a 21h (seg a qua).
+- Conteúdo atual: lifestyle (F1, academia, carro, café, day off, "bom dia"), de 460 a 950 visualizações cada. O melhor post recente foi o de 11/11 (bastidor de negócio): 1,3 mil visualizações e 10 compartilhamentos, cerca do dobro do lifestyle.
+- Leitura: o perfil demográfico (homens de 25 a 44, capitais) é compatível com o público-alvo de donos de negócio; o problema é conteúdo sem tema de negócio e sem link.
 **Canais de venda:** só site próprio. Não vende em marketplace (Mercado Livre, Shopee, TikTok Shop, Amazon). Confirmado em 19/nov.
 
 ## Público que o Bruno quer ajudar
