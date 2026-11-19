@@ -153,15 +153,11 @@ Conteúdo gerado por IA reprovado pelo Bruno; programa de creators começou com 
 - Credenciais, chaves, dados de clientes.
 _(Complementar com o levantamento.)_
 
-## Onde acompanhar (ClickUp)
-Pasta **@brunorib3 · Marca Pessoal** no "Espaço da equipe". Toda entrega de agente vira card lá, com link para o arquivo no repositório.
-| Lista | ID | Uso |
-|---|---|---|
-| 🧭 Decisões do Bruno | 1600710000001210 | Decisões que travam o time |
-| 🚀 Plano 30 dias · Diagnóstico | 1600710000001211 | Lançamento do primeiro produto |
-| 🎬 Conteúdo | 1600710000001212 | Um card por post |
-| 🧪 Radar IA · Testes | 1600710000001213 | Testes de IA na operação |
-| 📦 Entregas dos Agentes | 1600710000001214 | Documentos e status do time |
+## Onde acompanhar: Central @brunorib3 (substitui o ClickUp desde 19/nov)
+O Bruno achou o ClickUp confuso. O acompanhamento agora é a **Central** (`central/`, app Next.js local, porta 3333).
+- **Tarefas e decisões:** `central/data/tarefas.json`. Todo agente que entregar algo, criar tarefa ou concluir item deve **atualizar este arquivo** (campos: id, titulo, area [decisoes|plano|conteudo|radar|entregas], status [ideia|a_fazer|fazendo|feito], prioridade [urgent|high|normal|low], data AAAA-MM-DD, responsavel [bruno|agentes], tags, doc = caminho do arquivo no repositório, notas).
+- **Documentos:** a Central lê os `.md` de `produto/`, `conteudo/`, `benchmarking/`, `radar-ia/` e `.claude/context/`.
+- O ClickUp (pasta "@brunorib3 · Marca Pessoal") ficou como histórico e não é mais atualizado.
 
 ## Decisões do Bruno (19/nov/2026)
 1. **Primeiro produto:** Diagnóstico 1:1 aprovado para o começo.

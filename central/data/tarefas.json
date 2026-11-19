@@ -1,0 +1,621 @@
+{
+  "atualizado_em": "2026-11-19",
+  "tarefas": [
+    {
+      "id": "1dfutbf13zb",
+      "titulo": "Stories de reativação da base",
+      "area": "conteudo",
+      "status": "a_fazer",
+      "prioridade": "high",
+      "data": "2026-11-23",
+      "responsavel": "bruno",
+      "tags": [
+        "stories"
+      ],
+      "doc": "conteudo/calendario-dez-2026.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13zc",
+      "titulo": "P1 · Carrossel \"R$ 1,2 milhão por pessoa\"",
+      "area": "conteudo",
+      "status": "a_fazer",
+      "prioridade": "high",
+      "data": "2026-11-24",
+      "responsavel": "bruno",
+      "tags": [
+        "carrossel"
+      ],
+      "doc": "conteudo/calendario-dez-2026.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13zd",
+      "titulo": "Sessão de gravação 1 (2 h)",
+      "area": "conteudo",
+      "status": "a_fazer",
+      "prioridade": "high",
+      "data": "2026-12-01",
+      "responsavel": "bruno",
+      "tags": [
+        "gravação"
+      ],
+      "doc": "conteudo/calendario-dez-2026.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13ze",
+      "titulo": "P2 · Reel-manifesto (vira o fixado 3)",
+      "area": "conteudo",
+      "status": "a_fazer",
+      "prioridade": "high",
+      "data": "2026-12-03",
+      "responsavel": "agentes",
+      "tags": [
+        "reel"
+      ],
+      "doc": "conteudo/calendario-dez-2026.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13zf",
+      "titulo": "P3 · Reel \"Black Friday com 8 funcionários\"",
+      "area": "conteudo",
+      "status": "a_fazer",
+      "prioridade": "normal",
+      "data": "2026-12-04",
+      "responsavel": "agentes",
+      "tags": [
+        "reel"
+      ],
+      "doc": "conteudo/calendario-dez-2026.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13zg",
+      "titulo": "P4 · Carrossel \"32% dos Pix não são pagos\"",
+      "area": "conteudo",
+      "status": "a_fazer",
+      "prioridade": "normal",
+      "data": "2026-12-07",
+      "responsavel": "agentes",
+      "tags": [
+        "carrossel"
+      ],
+      "doc": "conteudo/calendario-dez-2026.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13yq",
+      "titulo": "Ajustar o perfil: nome, bio e link do WhatsApp",
+      "area": "conteudo",
+      "status": "a_fazer",
+      "prioridade": "urgent",
+      "data": "2026-11-21",
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": "conteudo/auditoria-perfil.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xx",
+      "titulo": "Reel: \"Meu primeiro milhão veio de 4 coisas\"",
+      "area": "conteudo",
+      "status": "ideia",
+      "prioridade": "normal",
+      "data": null,
+      "responsavel": "agentes",
+      "tags": [
+        "reel"
+      ],
+      "doc": null,
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xw",
+      "titulo": "Carrossel: minha história (mercadinho → CSN → R$ 30 mi)",
+      "area": "conteudo",
+      "status": "ideia",
+      "prioridade": "normal",
+      "data": null,
+      "responsavel": "agentes",
+      "tags": [
+        "carrossel"
+      ],
+      "doc": "conteudo/assets/LEIA.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xu",
+      "titulo": "Reel: \"Fiz um carrossel de venda inteiro em 10 minutos com IA\"",
+      "area": "conteudo",
+      "status": "ideia",
+      "prioridade": "high",
+      "data": null,
+      "responsavel": "agentes",
+      "tags": [
+        "reel"
+      ],
+      "doc": null,
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xt",
+      "titulo": "Carrossel: \"O governo taxou meu modelo de negócio\"",
+      "area": "conteudo",
+      "status": "ideia",
+      "prioridade": "high",
+      "data": null,
+      "responsavel": "agentes",
+      "tags": [
+        "carrossel"
+      ],
+      "doc": null,
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13yk",
+      "titulo": "Infra da marca pessoal: WhatsApp próprio, conta de anúncios, ManyChat",
+      "area": "decisoes",
+      "status": "a_fazer",
+      "prioridade": "high",
+      "data": "2026-11-25",
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": "produto/direct-e-anuncios.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13yf",
+      "titulo": "Dados que faltam: tamanho da rede quente e custo do implementador",
+      "area": "decisoes",
+      "status": "a_fazer",
+      "prioridade": "high",
+      "data": "2026-11-25",
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": null,
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13ye",
+      "titulo": "Definir o closer (calls de venda da turma)",
+      "area": "decisoes",
+      "status": "a_fazer",
+      "prioridade": "normal",
+      "data": "2026-12-19",
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": "produto/funil-v2.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xg",
+      "titulo": "Rodar o Radar de IA toda segunda de manhã?",
+      "area": "decisoes",
+      "status": "a_fazer",
+      "prioridade": "low",
+      "data": "2026-11-21",
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": "radar-ia/2026-11-19.md",
+      "notas": ""
+    },
+    {
+      "id": "p1-slide5",
+      "titulo": "P1: confirmar a frase do slide 5 e as decisões do slide 7",
+      "area": "decisoes",
+      "status": "a_fazer",
+      "prioridade": "high",
+      "data": "2026-11-23",
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": "conteudo/p1-carrossel/slides.html",
+      "notas": ""
+    },
+    {
+      "id": "p1-print",
+      "titulo": "P1: mandar print do painel do sistema (sem produto e sem nome da loja)",
+      "area": "decisoes",
+      "status": "a_fazer",
+      "prioridade": "high",
+      "data": "2026-11-23",
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": null,
+      "notas": ""
+    },
+    {
+      "id": "kiwify",
+      "titulo": "Placa da Kiwify (2022): de onde veio? Pode usar?",
+      "area": "decisoes",
+      "status": "a_fazer",
+      "prioridade": "low",
+      "data": null,
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": "conteudo/assets/LEIA.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13y9",
+      "titulo": "Listar os agentes e automações que já rodam (vira o cardápio)",
+      "area": "plano",
+      "status": "a_fazer",
+      "prioridade": "high",
+      "data": "2026-11-25",
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": "produto/raio-x-operacao.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xj",
+      "titulo": "Gravar áudio de 15 min: como faço a gestão com IA",
+      "area": "plano",
+      "status": "a_fazer",
+      "prioridade": "high",
+      "data": "2026-11-25",
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": null,
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xh",
+      "titulo": "Listar 100 a 120 contatos (donos de e-commerce que faturam R$ 50 mil+)",
+      "area": "plano",
+      "status": "a_fazer",
+      "prioridade": "high",
+      "data": "2026-11-25",
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": "produto/kit-vendas-diagnostico.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xp",
+      "titulo": "Stories de bastidor da Black Friday",
+      "area": "plano",
+      "status": "a_fazer",
+      "prioridade": "normal",
+      "data": "2026-12-02",
+      "responsavel": "bruno",
+      "tags": [
+        "stories"
+      ],
+      "doc": "conteudo/calendario-dez-2026.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xn",
+      "titulo": "Kit de agentes (bônus), CRM e automação do direct",
+      "area": "plano",
+      "status": "a_fazer",
+      "prioridade": "normal",
+      "data": "2026-12-02",
+      "responsavel": "agentes",
+      "tags": [],
+      "doc": "produto/direct-e-anuncios.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13yb",
+      "titulo": "Raio-X da Operação no ar + direct \"SISTEMA\"",
+      "area": "plano",
+      "status": "a_fazer",
+      "prioridade": "high",
+      "data": "2026-12-08",
+      "responsavel": "agentes",
+      "tags": [],
+      "doc": "produto/raio-x-operacao.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13ya",
+      "titulo": "Contratar implementador técnico (teste prático pago)",
+      "area": "plano",
+      "status": "a_fazer",
+      "prioridade": "high",
+      "data": "2026-12-19",
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": "produto/analise-funil/ecommerce.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xq",
+      "titulo": "Abrir vendas do Diagnóstico (teto 5 a 6)",
+      "area": "plano",
+      "status": "a_fazer",
+      "prioridade": "high",
+      "data": "2027-01-16",
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": "produto/kit-vendas-diagnostico.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xr",
+      "titulo": "Entregar diagnósticos + depoimentos",
+      "area": "plano",
+      "status": "a_fazer",
+      "prioridade": "high",
+      "data": "2027-01-30",
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": "produto/kit-vendas-diagnostico.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13yc",
+      "titulo": "Venda da turma fundadora + decisão (~13/fev)",
+      "area": "plano",
+      "status": "a_fazer",
+      "prioridade": "high",
+      "data": "2027-02-13",
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": "produto/funil-v2.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13y3",
+      "titulo": "Teste 1: custo do WhatsApp após 01/10 e corte de fluxos que não vendem",
+      "area": "radar",
+      "status": "a_fazer",
+      "prioridade": "high",
+      "data": "2026-11-25",
+      "responsavel": "agentes",
+      "tags": [
+        "loja"
+      ],
+      "doc": "radar-ia/2026-11-19.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13y4",
+      "titulo": "Teste 2: vídeo gerado de foto no Advantage+ vs. UGC",
+      "area": "radar",
+      "status": "a_fazer",
+      "prioridade": "high",
+      "data": "2026-11-25",
+      "responsavel": "agentes",
+      "tags": [
+        "loja"
+      ],
+      "doc": "radar-ia/2026-11-19.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13y5",
+      "titulo": "Teste 3: a loja aparece no ChatGPT, Gemini e Claude? Reescrever 10 fichas",
+      "area": "radar",
+      "status": "a_fazer",
+      "prioridade": "normal",
+      "data": "2026-11-26",
+      "responsavel": "agentes",
+      "tags": [
+        "loja"
+      ],
+      "doc": "radar-ia/2026-11-19.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13x9",
+      "titulo": "Começar pelo Diagnóstico 1:1",
+      "area": "decisoes",
+      "status": "feito",
+      "prioridade": "normal",
+      "data": null,
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": "produto/funil-v2.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xa",
+      "titulo": "Funil V2 aprovado",
+      "area": "decisoes",
+      "status": "feito",
+      "prioridade": "normal",
+      "data": null,
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": "produto/funil-v2.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xb",
+      "titulo": "Público: e-commerce que fatura R$ 50 mil+/mês",
+      "area": "decisoes",
+      "status": "feito",
+      "prioridade": "normal",
+      "data": null,
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": "produto/funil-v2.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xc",
+      "titulo": "Contratar implementador técnico",
+      "area": "decisoes",
+      "status": "feito",
+      "prioridade": "normal",
+      "data": null,
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": null,
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xd",
+      "titulo": "30 h por mês para a marca pessoal",
+      "area": "decisoes",
+      "status": "feito",
+      "prioridade": "normal",
+      "data": null,
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": null,
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xe",
+      "titulo": "Em público: só o sistema, sem nome das lojas, sem Creator OS e gateway",
+      "area": "decisoes",
+      "status": "feito",
+      "prioridade": "normal",
+      "data": null,
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": ".claude/context/bruno.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xf",
+      "titulo": "Números liberados (R$ 30 mi, R$ 12-15 mi, R$ 1 mi/mês, 1º milhão)",
+      "area": "decisoes",
+      "status": "feito",
+      "prioridade": "normal",
+      "data": null,
+      "responsavel": "bruno",
+      "tags": [],
+      "doc": ".claude/context/bruno.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xk",
+      "titulo": "Kit de vendas do Diagnóstico",
+      "area": "plano",
+      "status": "feito",
+      "prioridade": "normal",
+      "data": null,
+      "responsavel": "agentes",
+      "tags": [],
+      "doc": "produto/kit-vendas-diagnostico.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xm",
+      "titulo": "Páginas de aplicação do Diagnóstico e da bio",
+      "area": "plano",
+      "status": "feito",
+      "prioridade": "normal",
+      "data": null,
+      "responsavel": "agentes",
+      "tags": [],
+      "doc": "paginas/aplicacao-diagnostico/index.html",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13zh",
+      "titulo": "Calendário de conteúdo 23/nov a 31/dez",
+      "area": "entregas",
+      "status": "feito",
+      "prioridade": "normal",
+      "data": null,
+      "responsavel": "agentes",
+      "tags": [],
+      "doc": "conteudo/calendario-dez-2026.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13yd",
+      "titulo": "Funil V2 consolidado (4 análises)",
+      "area": "entregas",
+      "status": "feito",
+      "prioridade": "normal",
+      "data": null,
+      "responsavel": "agentes",
+      "tags": [],
+      "doc": "produto/funil-v2.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13y2",
+      "titulo": "Time de agentes (10) + contexto do Bruno",
+      "area": "entregas",
+      "status": "feito",
+      "prioridade": "normal",
+      "data": null,
+      "responsavel": "agentes",
+      "tags": [],
+      "doc": ".claude/context/bruno.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13y1",
+      "titulo": "Levantamento dos chats das duas lojas",
+      "area": "entregas",
+      "status": "feito",
+      "prioridade": "normal",
+      "data": null,
+      "responsavel": "agentes",
+      "tags": [],
+      "doc": ".claude/context/bruno.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13y0",
+      "titulo": "Radar de IA no e-commerce #1",
+      "area": "entregas",
+      "status": "feito",
+      "prioridade": "normal",
+      "data": null,
+      "responsavel": "agentes",
+      "tags": [],
+      "doc": "radar-ia/2026-11-19.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xz",
+      "titulo": "Benchmarking de criadores de e-commerce",
+      "area": "entregas",
+      "status": "feito",
+      "prioridade": "normal",
+      "data": null,
+      "responsavel": "agentes",
+      "tags": [],
+      "doc": "benchmarking/criadores-ecommerce-v1.md",
+      "notas": ""
+    },
+    {
+      "id": "1dfutbf13xy",
+      "titulo": "Esteira de produtos V1 (substituída pelo V2)",
+      "area": "entregas",
+      "status": "feito",
+      "prioridade": "normal",
+      "data": null,
+      "responsavel": "agentes",
+      "tags": [],
+      "doc": "produto/esteira-v1.md",
+      "notas": ""
+    },
+    {
+      "id": "p1-artes",
+      "titulo": "Artes do carrossel P1",
+      "area": "entregas",
+      "status": "feito",
+      "prioridade": "normal",
+      "data": null,
+      "responsavel": "agentes",
+      "tags": [],
+      "doc": "conteudo/p1-carrossel/slides.html",
+      "notas": ""
+    },
+    {
+      "id": "auditoria",
+      "titulo": "Auditoria do perfil do Instagram",
+      "area": "entregas",
+      "status": "feito",
+      "prioridade": "normal",
+      "data": null,
+      "responsavel": "agentes",
+      "tags": [],
+      "doc": "conteudo/auditoria-perfil.md",
+      "notas": ""
+    }
+  ]
+}
