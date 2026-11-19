@@ -63,11 +63,59 @@ Oferta direta + prova social + urgência. Framework: **desejo + acessibilidade +
 Recorrentes: live shop, WhatsApp VIP, cupons estratégicos, escassez real, garantia de 1 ano, qualidade acessível.
 
 ## Números reais
-<!-- PREENCHER com o levantamento dos chats "MISS SECRET AI OS" e "Purity AI OS". Cada número com data e se é resultado, meta ou estimativa. -->
-_Pendente: levantamento em andamento._
+Fonte: levantamento dos chats "MISS SECRET AI OS" (12/10 a 18/11/2026) e "Purity AI OS" (16 a 18/11/2026). REAL = medido pelo sistema; META = objetivo; ESTIM = estimativa.
+Em conteúdo público: **nunca citar o nome das lojas**. Falar "minha loja de moda/acessórios".
 
-## Sistemas e automações já construídos
-_Pendente: levantamento em andamento._
+### Loja principal (acessórios femininos) — sistema registra vendas desde abril/2026
+| Mês 2026 | Pedidos | Faturamento |
+|---|---|---|
+| Abril | 1.704 | R$ 645,5 mil |
+| Maio | 2.903 | R$ 1,08 mi |
+| Junho | 3.023 | R$ 1,18 mi |
+| Julho | 4.003 | R$ 1,54 mi |
+| Agosto | 3.703 | R$ 1,47 mi |
+| Setembro | 3.211 | R$ 1,30 mi |
+| Outubro | 5.055 | R$ 1,89 mi |
+| Novembro (até 17/11) | 3.822 | R$ 1,44 mi (+35% vs. out no mesmo período) |
+- **Crescimento:** ~3x em 6 meses (abr → out). REAL.
+- **Recorde:** 11/11/2026, R$ 206 mil e 629 pedidos num dia, MER ~6. REAL. Outros: 1/11 R$ 175 mil (meta era R$ 100 mil); 10/10 R$ 137 mil.
+- **Dia normal:** R$ 65 a 75 mil; ~150 pedidos/dia. **Ticket médio:** R$ 365 a 405 (R$ 502 com frete grátis, R$ 310 com frete pago). 1,4 peça por pedido.
+- **90 dias até 20/10:** faturamento +41%, pedidos +38%, MER de 2,89 → 3,28, conversão do site 3,49%, margem de contribuição 25%.
+- **Lucro:** 1 a 16/11 margem de 24,5% (REAL, calculado pelo sistema). Meta de margem: 20%.
+- **Mídia:** ~R$ 195 mil/mês, ~30% da receita. Regra: pausar campanha abaixo de R$ 3,50 de venda por R$ 1 de mídia.
+- **Histórico:** loja com 6 anos e +40 mil pedidos (confirmado pelo Bruno em 18/11).
+- **Metas:** R$ 2 mi em novembro (META). Black Friday 27 a 29/11: ESTIM de R$ 550 a 750 mil nos 3 dias.
+
+### Gargalos medidos (bons para conteúdo, sem citar a loja)
+- **Pix:** 32% dos pedidos no Pix não são pagos; R$ 534 mil em Pix não pagos em 30 dias (até 16/11). Quem nunca comprou deixa 2x mais Pix sem pagar (23% vs. 12%).
+- **Lembrete automático de Pix:** +5 pontos de pagamento contra grupo de controle (25,8% vs. 20,6%), ~R$ 17 mil/mês a mais (amostra pequena).
+- **Carrinho abandonado:** 12,5% recuperados em 3 dias, R$ 18 mil em 11 dias, R$ 140 de custo em mensagens.
+- **Recompra:** só 19,5% voltam em 90 dias. **Trocas e devoluções:** ~10% das vendas.
+- **WhatsApp:** 20% a 45% das mensagens de marketing não são entregues.
+- **Faturamento sem margem:** de R$ 600 mil para R$ 1 mi numa Black, o faturamento sobe 67% e o lucro só ~R$ 25 mil (ESTIM).
+
+### Segunda loja (moda feminina, com loja física)
+- ~4 pedidos/dia, ticket ~R$ 330 a 346. Novembro até 18/11: R$ 26,1 mil, 79 pedidos, margem de contribuição 23%.
+- Mídia 11 a 17/11: R$ 4,4 mil → R$ 19,6 mil (retorno 4,5). Google pesquisa da marca ~30x vs. PMax 3,9x.
+- Pixel registrava 3 a 4 compras para cada pedido real.
+
+## Sistemas e automações já construídos ("AI OS", pode ser mostrado sem nome das lojas)
+Stack: Next.js, Supabase, Vercel, rotinas agendadas, WhatsApp Cloud API, integrações com Yampi, Melhor Envio, Meta e Google Ads.
+- **Chat da operação** (um "COO" de IA, por texto e voz): consulta faturamento, lucro, pedidos em tempo real. Rotina do Bruno: "como estamos hoje?" toda manhã.
+- **WhatsApp automático:** lembretes de Pix, carrinho abandonado, cashback vencendo, 2ª compra, rastreio, resposta a "cadê meu pedido", freio anti-spam, **grupo de controle** para medir o impacto real.
+- **Logística:** etiquetas automáticas com regras por estado e transportadora, reversa, rastreio atualizado na loja.
+- **Pós-venda:** devoluções, vale-troca, reembolsos, e-mails com base de conhecimento, chargebacks.
+- **Vendas:** filas de oportunidade para as vendedoras, disparo automático quando elas não agem, ranking e comissões.
+- **Gestão:** perfis por cargo (CEO, vendas, logística, pós-venda, gerente), tarefas por colaborador, ranking de bônus.
+- **Financeiro:** lucro real com custo de produto, frete, juros, impostos, reembolsos e chargebacks.
+- **Dashboard:** ticket, LTV, recompra, MER, conversão.
+- **Marketing:** página VIP, página da bio, página e painel de creators com comissão, API de Conversões da Meta, páginas de SEO.
+- **Auditorias por IA** que acharam dinheiro perdido: 134 multas de transporte cruzando dados, cashback cobrado em dobro, erro de etiquetas.
+- **Agentes especialistas** (só leitura, propõem e não executam): crescimento, copy, mídia paga, pós-venda, segurança, web design, UX, auditor de atendimento.
+- **Clonagem:** o sistema foi replicado para a segunda loja em poucos dias (cadastro de produto por foto com IA, Google e Meta Ads automáticos, NF-e automática, extratos para a contabilidade).
+
+### O que não deu certo (também é conteúdo)
+Conteúdo gerado por IA reprovado pelo Bruno; programa de creators começou com 0 inscrições; "Compre Junto" sem efeito; auditoria do atendimento automático com nota 5/10; Morning Brief considerado pouco útil; um bug de IA gerou 411 etiquetas com remetente errado (lição: travar regras críticas e testar o envio de verdade).
 
 ## Histórias e cases para conteúdo
 - Out/2026: instalação de skills de Instagram no Claude Code + carrossel completo da bolsa YSL Envelope Chain (copy, recorte de produto, fundos de estúdio, 10 slides) feito numa sessão. Arquivos em `carrossel-ysl/`.
@@ -79,6 +127,12 @@ _Pendente: levantamento em andamento._
 - **Bens (casa, carros, 911):** usar como consequência e marco da jornada, nunca como isca principal. O público-alvo são empresários, não quem busca dinheiro rápido.
 
 ## NÃO publicar
+- **Situação fiscal e legal das lojas:** emissão de nota, multas, CPFs usados em etiquetas, mudanças de CNPJ.
+- **Produtos com nome de marcas de grife** e qualquer foto ou nome desses produtos.
+- **Pessoas:** nomes e desempenho individual da equipe, folha de pagamento, dados de clientes, endereço do CD.
+- **Incidentes com dados de clientes** (LGPD) e brigas com fornecedores, agências e plataformas.
+- **Endereços do sistema, IDs, tokens e qualquer credencial.**
+- Alegações de anúncio não verificadas (ex.: número de clientes, nota no Reclame Aqui).
 - **Nome das empresas** (Miss Secret, Purity, Glow Hair etc.) no conteúdo da marca pessoal. Falar "minha loja" ou "minha operação".
 - **Creator OS e gateway** (decisão de 19/nov).
 - Detalhes da reorganização societária da Purity e qualquer coisa sobre sócios.
