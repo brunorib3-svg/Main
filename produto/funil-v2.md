@@ -7,7 +7,7 @@ Preços e taxas são **[HIPÓTESE]** até o Bruno aprovar. Regras de exposição
 
 | Ponto | V1 | V2 | Por quê |
 |---|---|---|---|
-| Promessa | "IA na gestão do e-commerce" | **Margem, tempo do dono e CAC.** A IA é o meio | Quem fatura R$ 100 mil+ compra resultado, não tecnologia (e-commerce) |
+| Promessa | "IA na gestão do e-commerce" | **Margem, tempo do dono e CAC.** A IA é o meio | Quem fatura R$ 50 mil+ compra resultado, não tecnologia (e-commerce) |
 | Diagnósticos em dezembro | 8 a 10 | **5 a 6** | 30 h/mês não comportam 8 com conteúdo e vendas (os 4 agentes) |
 | Formato do diagnóstico | 1 call de 90 min | **2 calls:** mapeamento de 75 min + devolutiva de 30 min | Evita virar consultoria barata e prepara o próximo passo (lançamentos) |
 | Entregável | Plano + "primeiro agente adaptado" | Plano escrito + **1 template do cardápio padrão, sem integração** | Agente integrado leva de 8 a 40 h: é implementação, não cabe em R$ 2.000 (e-commerce) |
@@ -20,7 +20,7 @@ Preços e taxas são **[HIPÓTESE]** até o Bruno aprovar. Regras de exposição
 ## O funil
 
 ```
-CONTEÚDO (3 posts/semana, filtro "útil para quem fatura R$ 100 mil+?")
+CONTEÚDO (3 posts/semana, filtro "útil para quem fatura R$ 50 mil+?")
    │  CTA: "comenta SISTEMA"
    ▼
 DIRECT AUTOMÁTICO (2 perguntas: vende online? faixa de faturamento?)

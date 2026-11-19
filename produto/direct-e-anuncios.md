@@ -5,7 +5,7 @@
 > Regras de exposição valem para TODA mensagem e criativo deste documento: sem nome das lojas, sem Creator OS, sem gateway, sem bolsas ou produtos nas telas, sem bens (casa, carros, 911), faturamento sempre como faturamento e nunca como lucro.
 
 **Definição usada em todo o documento**
-- **Faixa-alvo (lead qualificado):** vende online **e** fatura **R$ 100 mil/mês ou mais** (autodeclarado). O corte de R$ 100 mil vem da esteira e é **[HIPÓTESE]**: se o Bruno mudar, muda só a regra de ramificação no direct e no painel.
+- **Faixa-alvo (lead qualificado):** vende online **e** fatura **R$ 50 mil/mês ou mais** (autodeclarado). Corte **confirmado pelo Bruno em 19/nov** (antes era R$ 100 mil, hipótese).
 - **Período do anúncio:** 8/dez/2026 a 6/jan/2027 (30 dias), R$ 4.500 no total, R$ 150/dia em média.
 - **Pré-requisito:** Raio-X da Operação no ar (página própria) e página de aplicação publicadas até 5/dez para dar 2 dias de teste do fluxo.
 
@@ -72,12 +72,12 @@ Se não clicar em 2 h: lembrete único "É só tocar em Bora que eu te mando o R
 **P2 · Pergunta 2** (para "Sim, vendo online"; salva no campo `faixa_faturamento`)
 > Em média, quanto a operação fatura por mês? (Fica só entre nós, é para eu te mandar o material certo.)
 >
-> [Até R$ 30 mil] [R$ 30 a 100 mil] [R$ 100 a 300 mil] [R$ 300 mil a 1 mi] [Acima de R$ 1 mi]
+> [Até R$ 50 mil] [R$ 50 a 100 mil] [R$ 100 a 300 mil] [R$ 300 mil a 1 mi] [Acima de R$ 1 mi]
 
 **P2b · Pergunta 2 do negócio físico** (para "Tenho negócio físico"; mesmo campo `faixa_faturamento`)
 > E o negócio físico fatura em média quanto por mês?
 >
-> [Até R$ 100 mil] [R$ 100 a 300 mil] [Acima de R$ 300 mil]
+> [Até R$ 50 mil] [R$ 50 a 300 mil] [Acima de R$ 300 mil]
 
 **Texto livre em vez de botão (fallback):** "Para eu não errar, responde tocando num dos botões aqui em cima." Após 2 falhas: tag `precisa_humano` e aviso "Vou ler sua mensagem e te respondo por aqui."
 
@@ -98,11 +98,11 @@ Se não clicar em 2 h: lembrete único "É só tocar em Bora que eu te mando o R
 ```
 M0 ─► P1
       ├─ Sim, vendo online ─► P2
-      │     ├─ Até R$ 30 mil / R$ 30 a 100 mil ─► R1 (fora da faixa): C1 ─► Raio-X + lista
-      │     └─ R$ 100 mil ou mais ─────────────► R2 (na faixa): C1 ─► Raio-X + convite para aplicação
+      │     ├─ Até R$ 50 mil ─────────────────► R1 (fora da faixa): C1 ─► Raio-X + lista
+      │     └─ R$ 50 mil ou mais ──────────────► R2 (na faixa): C1 ─► Raio-X + convite para aplicação
       ├─ Negócio físico, sem online ─► P2b
-      │     ├─ Até R$ 100 mil ─► R1 (fora da faixa): C1 ─► Raio-X + lista
-      │     └─ R$ 100 mil ou mais ─► R3 (trilha física): C1 ─► Raio-X + tag para a trilha separada
+      │     ├─ Até R$ 50 mil ─► R1 (fora da faixa): C1 ─► Raio-X + lista
+      │     └─ R$ 50 mil ou mais ─► R3 (trilha física): C1 ─► Raio-X + tag para a trilha separada
       └─ Ainda não tenho negócio ─► R4: resposta educada, sem oferta e sem lista
 ```
 
@@ -164,7 +164,7 @@ Regras: no máximo 1 follow-up por canal; quem aplicou, comprou ou respondeu "de
 | Campo | Tipo | Valores |
 |---|---|---|
 | `vende_online` | texto | sim / fisico / sem_negocio |
-| `faixa_faturamento` | texto | ate_30k / 30_100k / 100_300k / 300k_1mi / 1mi_mais / fisico_ate_100k / fisico_100_300k / fisico_300k_mais |
+| `faixa_faturamento` | texto | ate_50k / 50_100k / 100_300k / 300k_1mi / 1mi_mais / fisico_ate_50k / fisico_50_300k / fisico_300k_mais |
 | `origem` | texto | comentario / dm / story / anuncio / bio |
 | `post_origem` | texto | ID ou link do post |
 | `anuncio_id` | texto | ID do anúncio (ref do gatilho) |
@@ -195,7 +195,7 @@ Regras: no máximo 1 follow-up por canal; quem aplicou, comprou ou respondeu "de
 ### 2.1 Riscos de política (antes da estrutura)
 1. **Formulário instantâneo com pergunta de faturamento:** a política de anúncios de cadastro da Meta restringe perguntar informação financeira (a lista cita renda, patrimônio e dívida) sem permissão prévia. Faturamento da empresa em faixas não é renda pessoal, mas o risco de reprovação existe. **Por isso a qualificação principal fica no direct** (C2a) e o formulário (C2b) é variante. Se o formulário for reprovado, os R$ 30/dia dele vão para C2a. (Isso corrige a análise anterior, que tratou a pergunta como liberada.)
 2. **Alegação de renda / "ficar rico":** R$ 30 mi e R$ 12 a 15 mi só como **faturamento das minhas operações**, nunca como resultado do lead. Sem "fature X", "liberdade financeira", "renda", "escale para 7 dígitos". O 1º milhão em 6 meses **fica fora dos anúncios** (liberado no orgânico, mas em anúncio sinaliza dinheiro rápido e puxa o público errado).
-3. **Atributos pessoais:** nada que afirme ou insinue a situação do leitor ("Você está perdendo dinheiro?", "Sua loja fatura R$ 100 mil?"). Usar "Para quem já opera e-commerce...".
+3. **Atributos pessoais:** nada que afirme ou insinue a situação do leitor ("Você está perdendo dinheiro?", "Sua loja fatura R$ 50 mil?"). Usar "Para quem já opera e-commerce...".
 4. **Calendário:** dezembro é pico de Natal no e-commerce: CPM mais caro e dono de loja ocupado **[HIPÓTESE]**. Por isso o corte é por lead qualificado, não por CPL bruto.
 
 ### 2.2 Estrutura das 3 campanhas
@@ -221,7 +221,7 @@ Notas:
 
 ### 2.3 Critérios de corte e escala
 
-Lead qualificado = faixa-alvo (vende online + R$ 100 mil/mês ou mais), contado **pelas tags do ManyChat e pelas respostas do formulário**, não pelo número de "cadastros" da Meta.
+Lead qualificado = faixa-alvo (vende online + R$ 50 mil/mês ou mais), contado **pelas tags do ManyChat e pelas respostas do formulário**, não pelo número de "cadastros" da Meta.
 CPL qualificado = gasto de C2 + C3 ÷ leads qualificados de C2 + C3.
 
 | Nível | Regra | Ação |
@@ -364,7 +364,7 @@ Onde montar: **dezembro** em planilha alimentada pelo webhook do ManyChat + expo
 2. [DADO: quem opera os anúncios e se a conta de anúncios e o pixel da marca pessoal já existem, separados das lojas]
 3. [DADO: quem conecta o webhook ManyChat → Supabase → WhatsApp até 5/dez]
 4. [DADO: tempo antes/depois de 3 rotinas do sistema, para o ângulo 2]
-5. [DADO: confirmação do corte da faixa-alvo em R$ 100 mil/mês]
+5. Corte da faixa-alvo confirmado: R$ 50 mil/mês (19/nov)
 6. [DADO: ferramenta de cobrança do diagnóstico, para o painel]
 7. [DADO: custo por mensagem de marketing no WhatsApp Cloud API]
 8. [DADO: alcance e visitas ao perfil (Insights) para a linha de base]

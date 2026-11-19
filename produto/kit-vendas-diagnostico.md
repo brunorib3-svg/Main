@@ -37,7 +37,7 @@ Eu não prometo faturamento nem aumento de margem. Prometo clareza com número e
 **Quem está do outro lado:** opero e-commerce desde 2022. Foram mais de R$ 30 milhões em faturamento, R$ 12 a 15 milhões no último ano, com um time de 8 pessoas e margem líquida entre 20% e 25%. A gestão roda num sistema com IA que eu mesmo construí: números do dia, atendimento, pós-venda, logística e rotina do time num lugar só. O diagnóstico usa o mesmo olhar que eu uso na minha operação.
 
 **Para quem é**
-- Dono de e-commerce com loja própria que já fatura [HIPÓTESE: a partir de R$ 100 mil/mês].
+- Dono de e-commerce com loja própria que já fatura a partir de R$ 50 mil/mês (confirmado em 19/nov).
 - Sente que vende bem e sobra pouco, ou não sabe exatamente quanto sobra.
 - Tudo passa por ele: aprovação de criativo, conferência de anúncio, resposta a cliente, compra.
 - Topa mandar os dados antes da call (pedidos, anúncios, custos).
@@ -256,7 +256,7 @@ Logo depois: a transcrição vai para o agente de relatório (seção 4). O Brun
 | Item | Conteúdo |
 |---|---|
 | Nome | Turma Fundadora · Gestão com IA para e-commerce |
-| Para quem | Donos de loja própria que já faturam [HIPÓTESE: R$ 100 mil+/mês], querem montar a gestão com IA e têm ~2 h/semana para executar |
+| Para quem | Donos de loja própria que já faturam R$ 50 mil+/mês, querem montar a gestão com IA e têm ~2 h/semana para executar |
 | Formato | 4 a 6 empresas · 12 semanas · 1 encontro semanal de 90 min comigo · grupo para dúvidas · hot seat com os números de cada um |
 | Início | Semana de 26/jan/2027 · decisão da turma em 16/jan |
 | Currículo provisório | Sem. 1 a 2: base de números e painel de margem · Sem. 3 a 4: rotina do dono e o que sai das mãos dele · Sem. 5 a 6: atendimento e pós-venda com IA · Sem. 7 a 8: criativo, leitura de anúncios e custo por venda · Sem. 9 a 10: caixa (Pix, carrinho, devolução, estoque) · Sem. 11 a 12: rotina do time, indicadores e plano do próximo trimestre [DECISÃO: validar currículo após os diagnósticos de dezembro] |

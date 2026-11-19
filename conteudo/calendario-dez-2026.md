@@ -34,7 +34,7 @@
 | Números | Liberados: R$ 30 mi (total), R$ 12 a 15 mi (último ano), 1º milhão em 6 meses (2022), R$ 1,2 a 1,5 mi por pessoa, margem de 20% a 25%, e os % de gargalos do `bruno.md`. Sempre escrever **faturamento**. Lucro só em %. |
 | Prova principal | **Eficiência:** faturamento por pessoa e margem. Plaquinhas como prova (1 slide ou 1 s de B-roll), nunca como gancho. |
 | Frases proibidas | "único operador real", "renda extra", "do zero", "primeira venda", "liberdade" como promessa, "método". |
-| Filtro antes de publicar | "Isso é útil para um dono que fatura R$ 100 mil por mês ou mais?" Se não, não sai. |
+| Filtro antes de publicar | "Isso é útil para um dono que fatura R$ 50 mil por mês ou mais?" Se não, não sai. |
 | Bens e fé | Bens só como marco da jornada, nunca como gancho. Fé é identidade real e pode aparecer, mas não como gancho de venda. |
 | História | No feed, 1 vez no mês (16/dez). Opções binárias e NFT ficam fora. |
 | CTA | **Nada de venda até ~5/jan.** Até 7/dez: seguir, salvar, compartilhar, comentar. De 8/dez: "comenta SISTEMA" para receber o Raio-X (lista). Diagnóstico, vagas e preço só em janeiro. |
@@ -78,13 +78,13 @@ Nome, bio, link, destaques e fixados estão em **`conteudo/auditoria-perfil.md`*
 |---|---|---|
 | Visualizações da tela 1 | Insights do story | ÷ 77.630 = % da base que ainda vê o Bruno (referência: 39 mil visualizações de stories em 30 dias) |
 | % "Sim, já vendo online" | Tela 2 | Aderência da base ativa |
-| % R$ 100 mil+ (duas faixas de cima) | Tela 3 | Público-alvo dentro da base ativa |
-| Público-alvo estimado | Visualizações × % vende online × % R$ 100 mil+ | Pessoas reais com perfil de diagnóstico |
+| % R$ 50 mil+ (três faixas de cima) | Tela 3 | Público-alvo dentro da base ativa |
+| Público-alvo estimado | Visualizações × % vende online × % R$ 50 mil+ | Pessoas reais com perfil de diagnóstico |
 | Nº de "negócio físico" | Tela 2 | Candidatos à trilha separada (só por indicação) |
 
-**Regra de decisão [HIPÓTESE]:** se menos de 5% de quem votou na tela 3 estiver na faixa de R$ 100 mil+, a base não sustenta o funil sozinha e o anúncio de lista (8/dez) deixa de ser opcional.
+**Regra de decisão [HIPÓTESE]:** se menos de 5% de quem votou na tela 3 estiver na faixa de R$ 50 mil+, a base não sustenta o funil sozinha e o anúncio de lista (8/dez) deixa de ser opcional.
 
-**Uso:** o Instagram mostra quem votou. Quem marcou R$ 100 mil+ entra na lista da rede quente, para receber mensagem pessoal do Bruno na abertura de janeiro. Em dezembro, só relacionamento (responder, agradecer, perguntar), sem oferta.
+**Uso:** o Instagram mostra quem votou. Quem marcou R$ 50 mil+ entra na lista da rede quente, para receber mensagem pessoal do Bruno na abertura de janeiro. Em dezembro, só relacionamento (responder, agradecer, perguntar), sem oferta.
 
 ### 3.2 Roteiro diário
 
@@ -157,7 +157,7 @@ Nome, bio, link, destaques e fixados estão em **`conteudo/auditoria-perfil.md`*
 | 5 | Quando o faturamento sobe e esse número cai, quase sempre eu contratei alguém para fazer um trabalho que devia ser processo. [CONFIRMAR: a frase é do Bruno?] | Texto puro |
 | 6 | O que segura esse número aqui é um sistema que junta a gestão das minhas lojas numa tela só.<br>Etiqueta, lembrete de Pix, carrinho abandonado e "cadê meu pedido" rodam sem ninguém da equipe encostar. | Print do painel, borrado (6.3). Tirar o print até 23/nov |
 | 7 | O que continua comigo: [DADO: 2 ou 3 decisões que o Bruno não delega para a IA]. | Texto puro |
-| 8 | Se a sua loja já fatura R$ 100 mil por mês ou mais e tudo ainda passa por você, é com você que eu vou conversar aqui. | Texto puro |
+| 8 | Se a sua loja já fatura R$ 50 mil por mês ou mais e tudo ainda passa por você, é com você que eu vou conversar aqui. | Texto puro |
 | 9 (CTA) | Salva para fazer a conta com o seu número.<br>Em dezembro eu abro esse sistema na tela. | Foto do Bruno no escritório |
 
 **Legenda:**
@@ -327,7 +327,7 @@ Sem roteiros completos. Datas e regras do diagnóstico (vagas, janela das calls,
 
 | Semana | Feed (3 por semana, seg/ter/qua 19h) | Stories e direct | CTA |
 |---|---|---|---|
-| **5 a 9/jan · abertura** | Reel de abertura (gravado em 15/dez); carrossel "6 vagas" (para quem é, para quem não é, como funciona, preço [CONFIRMAR: no post ou só na aplicação]); Reel "uma tela só" revisitado com novos números de dezembro | Destaque "Diagnóstico" no ar; contador de vagas real; mensagem pessoal para quem votou R$ 100 mil+ na enquete e para os leads de faixa-alvo do SISTEMA | **Link da bio = aplicação.** SISTEMA continua para a lista |
+| **5 a 9/jan · abertura** | Reel de abertura (gravado em 15/dez); carrossel "6 vagas" (para quem é, para quem não é, como funciona, preço [CONFIRMAR: no post ou só na aplicação]); Reel "uma tela só" revisitado com novos números de dezembro | Destaque "Diagnóstico" no ar; contador de vagas real; mensagem pessoal para quem votou R$ 50 mil+ na enquete e para os leads de faixa-alvo do SISTEMA | **Link da bio = aplicação.** SISTEMA continua para a lista |
 | **12 a 16/jan** | Bastidor com número (dado novo de dezembro); tese de operador; "o que eu olho primeiro numa operação que fatura e não sobra dinheiro" | Bastidor das calls (sem cliente), contador | Aplicação em 1 post; salvar/compartilhar nos outros |
 | **19 a 23/jan** | Padrões vistos nos primeiros diagnósticos (sem nomes); depoimento autorizado; IA na prática | Depoimentos autorizados no destaque "Resultados" | Aplicação + SISTEMA |
 | **26 a 30/jan** | Gravação do vídeo-âncora longo ("o sistema por dentro", previsto no funil para janeiro) e primeiros cortes | Lista de espera da turma fundadora, se o Bruno mantiver | Aplicação ou lista da turma |
@@ -346,7 +346,7 @@ Temas de janeiro: abertura de agenda, o que o diagnóstico olha (margem, dono co
 | Visualizações de não seguidores nos Reels | Insights | ~metade de 17 mil | Crescer semana a semana |
 | Público-alvo estimado na base | Enquetes de 23/nov e 1/dez | sem dado | Medir |
 | Comentários SISTEMA por post com CTA | Post + direct automático | sem dado | [HIPÓTESE: 30+] |
-| Leads na lista e % na faixa R$ 100 mil+ | Direct automático | sem dado | 40%+ na faixa; abaixo de 20%, revisar ganchos |
+| Leads na lista e % na faixa R$ 50 mil+ | Direct automático | sem dado | 40%+ na faixa; abaixo de 20%, revisar ganchos |
 
 ---
 

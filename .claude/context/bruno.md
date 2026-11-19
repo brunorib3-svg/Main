@@ -189,3 +189,8 @@ Produção de conteúdo começa aos poucos agora; **vendas só a partir de janei
 - Dezembro: rampa de conteúdo (2 → 3 posts/semana), Raio-X e "SISTEMA" a partir de 8/dez como **captação de lista**, sem venda.
 - Janeiro: abertura das vendas do diagnóstico (~5/jan), teto de 5 a 6 no mês.
 - Turma fundadora: venda em fevereiro, decisão ~13/fev, início ~2/mar (datas a confirmar). O crédito do diagnóstico passa a valer até a data de decisão da turma.
+
+## Confirmações do Bruno (19/nov/2026, noite)
+- **Média de faturamento dos últimos 12 meses ≥ R$ 1 mi/mês:** confirmado. Pode usar "fatura em média R$ 1 milhão por mês com 8 funcionários".
+- **Pode publicar R$ 534 mil em Pix não pagos em 30 dias** (e o "32% dos Pix não são pagos").
+- **Corte do público-alvo: R$ 50 mil/mês** de faturamento (não mais R$ 100 mil). Vale para página, direct, conteúdo e kit de vendas.
