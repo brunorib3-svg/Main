@@ -36,6 +36,8 @@ Bruno Ribeiro Leite Pinheiro, 30 anos (nascido em 1996). Nasceu em Volta Redonda
 - **O que fez o 1º milhão em 6 meses:** produto viral + branding + criativos virais + escala no Meta Ads.
 - **Por que saiu do dropshipping para estoque:** a taxação das importações pelo Remessa Conforme, a "taxa das blusinhas" (confirmado pelo Bruno).
 
+**Canais de venda:** só site próprio. Não vende em marketplace (Mercado Livre, Shopee, TikTok Shop, Amazon). Confirmado em 19/nov.
+
 ## Público que o Bruno quer ajudar
 Empresários que **já têm negócio e já faturam** e querem escalar mais, com autonomia, controle de dados e IA aplicada em tudo. Não é para iniciante nem para quem busca o primeiro dinheiro na internet.
 
